@@ -20,7 +20,7 @@ Here are some ideas to get you started:
 ### A little about me...  
 I'm an Undergrad Student🎓 pursuing CSE at R.M.K Engineering College. My Research Interest are on intersection of Computer Vision and Machine Learning  <br/><br/>
 
-#### 📬 Find me at
+#### 📬 Reach me at
 
 [![Gmail Badge](https://img.shields.io/badge/-Gmail-d14836?style=for-the-badge&logo=Gmail&logoColor=white&link=mailto:sanjays2402@gmail.com)](mailto:sanjays2402@gmail.com)
 [![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=for-the-badge&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/sanjay24/)
