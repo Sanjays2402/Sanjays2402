@@ -23,6 +23,6 @@ I'm an Undergrad Student🎓 pursuing CSE at R.M.K Engineering College. My Resea
 #### 📬 Find me at
 
 [![Gmail Badge](https://img.shields.io/badge/-Gmail-d14836?style=for-the-badge&logo=Gmail&logoColor=white&link=mailto:sanjays2402@gmail.com)](mailto:sanjays2402@gmail.com)
-[![Github Badge](http://img.shields.io/badge/-Github-black?style=for-the-badge&logo=github)](https://github.com/Sanjays2402/)
 [![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=for-the-badge&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/sanjay24/)
 [![Research Gate Badge](https://img.shields.io/badge/Research_Gate-00CCBB.svg?&style=for-the-badge&logo=ResearchGate&logoColor=white)](https://www.researchgate.net/profile/Sanjay-Santhanam-2)
+[![Orcid Badge](https://img.shields.io/badge/-ORCID-A6CE39?style=for-the-badge&logo=ORCID&logoColor=white)](https://github.com/Sanjays2402/)
