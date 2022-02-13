@@ -15,7 +15,7 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-### Hi 👋, I'm Sanjay Santhanam (he/him/his)
+### I'm Sanjay Santhanam (he/him/his)
 
 ### A little about me...  
 I'm an Undergrad Student🎓 pursuing CSE at R.M.K Engineering College. My Research Interest are on intersection of Computer Vision and Machine Learning  <br/><br/>
