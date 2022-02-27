@@ -47,3 +47,4 @@ I'm an Undergrad Student🎓 pursuing CSE at R.M.K Engineering College. My Resea
 [![Orcid Badge](https://img.shields.io/badge/IEEE-00629B?style=for-the-badge&logo=IEEE&logoColor=white)](https://ieeexplore.ieee.org/author/37089002316)
 [![Orcid Badge](https://img.shields.io/badge/Google_Scholar-4285F4?style=for-the-badge&logo=Google-Scholar&logoColor=white)](https://scholar.google.com/citations?user=qjNjjMYAAAAJ&hl=en)
 [![Aca Badge](https://img.shields.io/badge/Academia-fff?style=for-the-badge&logo=academia&logoColor=black)](https://rmkec.academia.edu/SanjaySanthanam)
+[![Publons Badge](https://img.shields.io/badge/Publons-336699?style=for-the-badge&logo=Publons&logoColor=black)](https://publons.com/researcher/4775065/sanjay-santhanam/)
