@@ -44,7 +44,7 @@ I'm an Undergrad Student🎓 pursuing CSE at R.M.K Engineering College. My Resea
 [![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=for-the-badge&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/sanjay24/)
 [![Research Gate Badge](https://img.shields.io/badge/Research_Gate-00CCBB.svg?&style=for-the-badge&logo=ResearchGate&logoColor=white)](https://www.researchgate.net/profile/Sanjay-Santhanam-2)
 [![Orcid Badge](https://img.shields.io/badge/ORCID-A6CE39?style=for-the-badge&logo=ORCID&logoColor=white)](https://orcid.org/orcid=0000-0001-6339-9651)
-[![Orcid Badge](https://img.shields.io/badge/IEEE-00629B?style=for-the-badge&logo=IEEE&logoColor=white)](https://ieeexplore.ieee.org/author/37089002316)
+[![Orcid Badge](https://img.shields.io/badge/IEEE-00629B?style=for-the-badge&logo=IEEE&logoColor=white)](https://ieeexplore.ieee.org/author/37089308978)
 [![Orcid Badge](https://img.shields.io/badge/Google_Scholar-4285F4?style=for-the-badge&logo=Google-Scholar&logoColor=white)](https://scholar.google.com/citations?user=qjNjjMYAAAAJ&hl=en)
 [![Aca Badge](https://img.shields.io/badge/Academia-fff?style=for-the-badge&logo=academia&logoColor=black)](https://rmkec.academia.edu/SanjaySanthanam)
 [![Publons Badge](https://img.shields.io/badge/Publons-336699?style=for-the-badge&logo=Publons&logoColor=black)](https://publons.com/researcher/4775065/sanjay-santhanam/)
