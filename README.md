@@ -18,7 +18,7 @@ Here are some ideas to get you started:
 ### I'm Sanjay Santhanam (he/him/his)
 
 ### A little about me...  
-I'm an Undergrad Student🎓 pursuing CSE at R.M.K Engineering College. My Research interests are on the intersection of Computer Vision and Machine Learning.  <br/><br/>
+I'm an Grad Student🎓 pursuing CS at Syracuse University, NY. My Research interests are on the intersection of Computer Vision and Machine Learning.  <br/><br/>
 
 <h3>Things I code with</h3>
 <p>
