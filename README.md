@@ -1,7 +1,7 @@
 ### I'm Sanjay Santhanam (he/him/his)
 
 ### A little about me...  
-I'm an Grad Student🎓 pursuing CS at Syracuse University, NY. My Research interests are on the intersection of Computer Vision and Machine Learning.  <br/><br/>
+My Research interests are on the intersection of Computer Vision and Machine Learning.  <br/><br/>
 
 <h3>Things I code with</h3>
 <p>
