@@ -34,13 +34,6 @@ I’m a passionate **Software Engineer** with a Master’s degree in Computer Sc
 
 ---
 
-## 💼 Professional Experience
-- **Research Intern** at Syracuse University: Focused on optimizing large-scale datasets and improving model performance with advanced feature selection techniques.
-- **Independent Software Developer**: Delivered full-stack solutions, including scalable web apps and machine learning models, to solve industry-specific challenges.
-- **Teaching Assistant**: Guided students in foundational programming, data structures, and algorithms.
-
----
-
 ## 🎯 What Drives Me
 - **Innovation**: I love tackling complex problems and finding creative, efficient solutions.
 - **Collaboration**: I thrive in team settings, working with diverse minds to build impactful products.
