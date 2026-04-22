@@ -4,13 +4,31 @@ Software engineer. I build things end-to-end — backends, systems, ML, develope
 
 ## Recent
 
-- **[tsk](https://github.com/Sanjays2402/tsk)** — keyboard-first markdown todo manager. Go, Bubbletea TUI, atomic writes, shell completions.
-- **[snip](https://github.com/Sanjays2402/snip)** — self-hosted URL shortener. TypeScript, Postgres, Redis, ClickHouse, BullMQ. Token-bucket rate limits, webhooks, workspace RBAC.
-- **[openclaw](https://github.com/openclaw/openclaw)** — contributor. Shipped fixes across the agent runtime ([#69581](https://github.com/openclaw/openclaw/pull/69581) codex manifest, [#69937](https://github.com/openclaw/openclaw/pull/69937) copilot transport, [#69941](https://github.com/openclaw/openclaw/pull/69941) memory-core).
+**CLIs & dev tools**
+- [**tsk**](https://github.com/Sanjays2402/tsk) — keyboard-first markdown todo. Go, Bubbletea TUI, atomic writes, shell completions.
+- [**snip**](https://github.com/Sanjays2402/snip) — self-hosted URL shortener. TypeScript · Postgres · Redis · ClickHouse · BullMQ. Token-bucket rate limits, webhooks, workspace RBAC.
+- [**snippet-dev**](https://github.com/Sanjays2402/snippet-dev) — local-first code snippet manager with fuzzy search, tags, syntax highlighting.
+- [**markdown-zen**](https://github.com/Sanjays2402/markdown-zen) — distraction-free markdown editor. Focus mode, custom parser.
+
+**Visual & creative**
+- [**ai-particle-simulator**](https://github.com/Sanjays2402/ai-particle-simulator) — describe an effect, get 20K+ particles. React + Three.js.
+- [**pixel-forge**](https://github.com/Sanjays2402/pixel-forge) — image to retro pixel art. Floyd–Steinberg dithering, 14 palettes, SVG export.
+- [**fractal-lab**](https://github.com/Sanjays2402/fractal-lab) — Mandelbrot + Julia set explorer with zoom and color mapping.
+- [**ascii-webcam**](https://github.com/Sanjays2402/ascii-webcam) — real-time webcam to ASCII in the browser.
+- [**retro-terminal**](https://github.com/Sanjays2402/retro-terminal) — CRT terminal emulator with scanlines and phosphor glow.
+
+**Interactive**
+- [**devdash**](https://github.com/Sanjays2402/devdash) — personal dev dashboard. Glassmorphism UI, Spotify, Gmail, drag-drop widgets.
+- [**regex-lab**](https://github.com/Sanjays2402/regex-lab) — live regex tester with shareable links.
+- [**data-forge**](https://github.com/Sanjays2402/data-forge) — CSV/JSON explorer with filters and canvas charts.
+- [**algo-race**](https://github.com/Sanjays2402/algo-race) — sorting algorithms racing in real time.
+
+**Open source**
+- [**openclaw/openclaw**](https://github.com/openclaw/openclaw) — contributor. Shipped [#69581](https://github.com/openclaw/openclaw/pull/69581) (codex manifest), [#69937](https://github.com/openclaw/openclaw/pull/69937) (copilot transport), [#69941](https://github.com/openclaw/openclaw/pull/69941) (memory-core cron).
 
 ## Stack
 
-Go · TypeScript · Python · Node · Postgres · Redis · Docker · GCP · AWS · React · PyTorch · TensorFlow
+Go · TypeScript · Python · Node · Postgres · Redis · ClickHouse · Docker · GCP · AWS · React · Three.js · PyTorch · TensorFlow
 
 ## Research
 
