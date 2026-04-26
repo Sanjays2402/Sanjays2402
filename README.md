@@ -24,7 +24,11 @@ Software engineer. I build things end-to-end — backends, systems, ML, develope
 - [**algo-race**](https://github.com/Sanjays2402/algo-race) — sorting algorithms racing in real time.
 
 **Open source**
-- [**openclaw/openclaw**](https://github.com/openclaw/openclaw) — contributor. Shipped [#69581](https://github.com/openclaw/openclaw/pull/69581) (codex manifest), [#69937](https://github.com/openclaw/openclaw/pull/69937) (copilot transport), [#69941](https://github.com/openclaw/openclaw/pull/69941) (memory-core cron).
+- [**openclaw/openclaw**](https://github.com/openclaw/openclaw) — contributor.
+- [**NousResearch/hermes-agent**](https://github.com/NousResearch/hermes-agent) — contributor.
+- [**NuvioMedia/NuvioTV**](https://github.com/NuvioMedia/NuvioTV) — contributor.
+- [**Flexget/Flexget**](https://github.com/Flexget/Flexget) — contributor.
+- [**plastic-labs/honcho**](https://github.com/plastic-labs/honcho) — contributor.
 
 ## Stack
 
