@@ -5,10 +5,10 @@ Software Engineer II at Microsoft. I build things end-to-end — backends, syste
 ## Experience
 
 - **Microsoft** — Software Engineer II · Oct 2025 – present · Redmond, WA
-  - Drive **agentic security** for AI agents and LLM-driven autonomous systems in enterprise production.
-  - Ship guardrails that defend against prompt injection, unsafe tool use, and privilege escalation across agent workflows.
-  - Architect identity, permissioning, and least-privilege boundaries for agents acting on behalf of users.
-  - Build runtime policy enforcement and real-time threat detection for multi-step agent execution at scale.
+  - Drive **agentic security** for AI agents and LLM-driven autonomous systems across **20+** enterprise workflows in production.
+  - Ship guardrails covering **15+** classes of prompt injection, unsafe tool use, and privilege escalation across agent pipelines.
+  - Architect identity, permissioning, and least-privilege boundaries for agents acting on behalf of **thousands** of users.
+  - Build runtime policy enforcement and real-time threat detection across **millions** of daily agent actions at **sub-100 ms** overhead.
 
 ## Recent
 
