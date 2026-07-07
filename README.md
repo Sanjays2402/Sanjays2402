@@ -5,9 +5,6 @@ Software Engineer II at Microsoft. I build things end-to-end — backends, syste
 ## Experience
 
 - **Microsoft** — Software Engineer II · Oct 2025 – present · Redmond, WA
-- **Johnson & Johnson** — Software Developer · Jun 2024 – Oct 2025 · New Brunswick, NJ
-- **Citi** — Software Developer · May 2023 – Apr 2024 · New York, NY
-- **Zentek Infosoft** — Software Development Engineer · Jun 2020 – Jul 2022
 
 ## Education
 
