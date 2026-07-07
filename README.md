@@ -108,4 +108,4 @@ Swift · Go · TypeScript · Python · Rust · Node · Postgres · Redis · Clic
 ## Contact
 
 - Email — [sanjays2402@gmail.com](mailto:sanjays2402@gmail.com)
-- LinkedIn — [linkedin.com/in/sanjays2402](https://www.linkedin.com/in/sanjays2402)
+- LinkedIn — [linkedin.com/in/sanjay24](https://www.linkedin.com/in/sanjay24/)
