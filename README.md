@@ -1,6 +1,18 @@
 # Sanjay Santhanam
 
-Software engineer. I build things end-to-end — backends, systems, ML, developer tools, native apps, browser games, and the occasional TUI. MS in Computer Science, Syracuse University.
+Software Engineer II at Microsoft. I build things end-to-end — backends, systems, ML, developer tools, native apps, browser games, and the occasional TUI.
+
+## Experience
+
+- **Microsoft** — Software Engineer II · Oct 2025 – present · Redmond, WA
+- **Johnson & Johnson** — Software Developer · Jun 2024 – Oct 2025 · New Brunswick, NJ
+- **Citi** — Software Developer · May 2023 – Apr 2024 · New York, NY
+- **Zentek Infosoft** — Software Development Engineer · Jun 2020 – Jul 2022
+
+## Education
+
+- **Syracuse University** — M.S., Computer Science
+- **Anna University, Chennai** — B.E., Computer Science & Engineering
 
 ## Recent
 
@@ -97,6 +109,7 @@ Swift · Go · TypeScript · Python · Rust · Node · Postgres · Redis · Clic
 - **Animal Detection for Road Safety using Deep Learning** — *IEEE ICCICA 2021.* [10.1109/ICCICA52458.2021.9697287](https://doi.org/10.1109/iccica52458.2021.9697287)
 - **Model Proposal for a YOLO Object Detection Algorithm based Social Distancing Detection System** — *IEEE ICCICA 2021.* [10.1109/ICCICA52458.2021.9697212](https://doi.org/10.1109/iccica52458.2021.9697212)
 - **Computer Vision based Road Lane Detection** — *Artificial & Computational Intelligence, 2021.*
+- **Recognition of Pneumonia from X-Ray Image Patterns using Convolutional Neural Networks** — 2021. [code](https://github.com/Sanjays2402/Pneumonia_Detection)
 
 ## Research
 
