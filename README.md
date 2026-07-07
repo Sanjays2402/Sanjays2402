@@ -5,6 +5,11 @@ Software Engineer II at Microsoft. I build things end-to-end — backends, syste
 ## Experience
 
 - **Microsoft** — Software Engineer II · Oct 2025 – present · Redmond, WA
+  - Work on **agentic security** — securing AI agents and LLM-driven autonomous systems.
+  - Build guardrails against prompt injection, unsafe tool use, and privilege escalation across agent workflows.
+  - Design identity, permissioning, and least-privilege boundaries for agents acting on behalf of users.
+  - Develop runtime policy enforcement and threat detection for multi-step agent execution.
+  - Red-team agent pipelines and harden them against adversarial and jailbreak inputs.
 
 ## Education
 
