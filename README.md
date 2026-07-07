@@ -9,7 +9,6 @@ Software Engineer II at Microsoft. I build things end-to-end — backends, syste
   - Build guardrails against prompt injection, unsafe tool use, and privilege escalation across agent workflows.
   - Design identity, permissioning, and least-privilege boundaries for agents acting on behalf of users.
   - Develop runtime policy enforcement and threat detection for multi-step agent execution.
-  - Red-team agent pipelines and harden them against adversarial and jailbreak inputs.
 
 ## Recent
 
