@@ -91,6 +91,13 @@ In flight: [**MemTensor/MemOS**](https://github.com/MemTensor/MemOS) — 5 open 
 
 Swift · Go · TypeScript · Python · Rust · Node · Postgres · Redis · ClickHouse · Docker · GCP · AWS · React · Three.js · PyTorch · TensorFlow · macOS / IOKit / SwiftUI
 
+## Selected publications
+
+- **Drowsiness Detection with OpenCV** — *IEEE ICESC 2021.* [10.1109/ICESC51422.2021.9532758](https://doi.org/10.1109/icesc51422.2021.9532758) · [code](https://github.com/Sanjays2402/Drowsiness-Detection-with-OpenCV)
+- **Animal Detection for Road Safety using Deep Learning** — *IEEE ICCICA 2021.* [10.1109/ICCICA52458.2021.9697287](https://doi.org/10.1109/iccica52458.2021.9697287)
+- **Model Proposal for a YOLO Object Detection Algorithm based Social Distancing Detection System** — *IEEE ICCICA 2021.* [10.1109/ICCICA52458.2021.9697212](https://doi.org/10.1109/iccica52458.2021.9697212)
+- **Computer Vision based Road Lane Detection** — *Artificial & Computational Intelligence, 2021.*
+
 ## Research
 
 - [Google Scholar](https://scholar.google.com/citations?user=qjNjjMYAAAAJ&hl=en)
