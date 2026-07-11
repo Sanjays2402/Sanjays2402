@@ -1,6 +1,6 @@
 # Sanjay Santhanam
 
-Software Engineer at Microsoft.
+Software Engineer at Microsoft. I build things end-to-end - backends, systems, ML, developer tools, native apps, browser games, and the occasional TUI. M.S. in Computer Science, Syracuse University.
 
 ## Recent
 
