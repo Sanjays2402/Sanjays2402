@@ -1,14 +1,6 @@
 # Sanjay Santhanam
 
-Software Engineer II at Microsoft. I build things end-to-end — backends, systems, ML, developer tools, native apps, browser games, and the occasional TUI. M.S. in Computer Science, Syracuse University.
-
-## Experience
-
-- **Microsoft** — Software Engineer II · Oct 2025 – present · Redmond, WA
-  - Drive **agentic security** for AI agents and LLM-driven autonomous systems across **20+** enterprise workflows in production.
-  - Ship guardrails covering **15+** classes of prompt injection, unsafe tool use, and privilege escalation across agent pipelines.
-  - Architect identity, permissioning, and least-privilege boundaries for agents acting on behalf of **thousands** of users.
-  - Build runtime policy enforcement and real-time threat detection across **millions** of daily agent actions at **sub-100 ms** overhead.
+Software Engineer at Microsoft.
 
 ## Recent
 
