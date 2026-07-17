@@ -43,6 +43,11 @@ Merged PRs across upstream projects.
 **AI, agents & memory**
 
 - [**openclaw/openclaw**](https://github.com/openclaw/openclaw) — agent runtime fixes for streamed-reply recovery, secrets auditing, codex synthetic-key handling, memory-core warning suppression, Discord voice session reuse, and PluralKit DM pairing.
+- [**HKUDS/LightRAG**](https://github.com/HKUDS/LightRAG): [#3406](https://github.com/HKUDS/LightRAG/pull/3406) exposes the thinking-token budget in role configuration.
+- [**OpenAgentHQ/openagent-eval**](https://github.com/OpenAgentHQ/openagent-eval): [#170](https://github.com/OpenAgentHQ/openagent-eval/pull/170) normalizes naive staleness timestamps in corpus evaluation.
+- [**academy-agents/academy**](https://github.com/academy-agents/academy): [#433](https://github.com/academy-agents/academy/pull/433) fixes the default Academy home-directory location.
+- [**garrytan/gbrain**](https://github.com/garrytan/gbrain): [#1554](https://github.com/garrytan/gbrain/pull/1554) replaces a POSIX-only postinstall shim with a cross-platform Node implementation.
+- [**laceyp99/conductor-core**](https://github.com/laceyp99/conductor-core): [#20](https://github.com/laceyp99/conductor-core/pull/20) logs unsupported Google reasoning-effort values instead of silently accepting them.
 - [**nesquena/hermes-webui**](https://github.com/nesquena/hermes-webui) — endless-scroll prefetch race, streaming scroll-pin, custom provider config, mobile send-on-Enter with a real keyboard, and throttled session-refresh polling.
 - [**outsourc-e/hermes-workspace**](https://github.com/outsourc-e/hermes-workspace) — slash-menu autocomplete, distinct gateway-auth-rejected error path.
 - [**huggingface/huggingface_hub**](https://github.com/huggingface/huggingface_hub) — [#4278](https://github.com/huggingface/huggingface_hub/pull/4278): fix typos in comments and a debug log message.
@@ -53,10 +58,15 @@ Merged PRs across upstream projects.
 **Language tooling & lexers**
 
 - [**astral-sh/ruff**](https://github.com/astral-sh/ruff) — [#26318](https://github.com/astral-sh/ruff/pull/26318): skip `D418` (`overload-with-docstring`) in stub files, where overloads cannot carry the docstring on an implementation.
-- [**pygments/pygments**](https://github.com/pygments/pygments) — five lexer/formatter fixes: Kotlin nullable-type marker ([#3178](https://github.com/pygments/pygments/pull/3178)), C++ function after a namespace body ([#3176](https://github.com/pygments/pygments/pull/3176)), LaTeX embedded-lexer options ([#3175](https://github.com/pygments/pygments/pull/3175)), TypeScript `module`-keyword whitespace ([#3172](https://github.com/pygments/pygments/pull/3172)), and Ruby unterminated-heredoc duplication ([#3171](https://github.com/pygments/pygments/pull/3171)).
+- [**pygments/pygments**](https://github.com/pygments/pygments): 15 lexer and formatter fixes across Kotlin ([#3178](https://github.com/pygments/pygments/pull/3178), [#3212](https://github.com/pygments/pygments/pull/3212)), C++ ([#3176](https://github.com/pygments/pygments/pull/3176)), LaTeX/TeX ([#3175](https://github.com/pygments/pygments/pull/3175), [#3204](https://github.com/pygments/pygments/pull/3204)), TypeScript ([#3172](https://github.com/pygments/pygments/pull/3172)), Ruby ([#3171](https://github.com/pygments/pygments/pull/3171)), Vala ([#3206](https://github.com/pygments/pygments/pull/3206), [#3207](https://github.com/pygments/pygments/pull/3207)), Jsonnet ([#3208](https://github.com/pygments/pygments/pull/3208)), YAML ([#3209](https://github.com/pygments/pygments/pull/3209)), SCSS ([#3210](https://github.com/pygments/pygments/pull/3210)), Kusto ([#3211](https://github.com/pygments/pygments/pull/3211)), C# ([#3213](https://github.com/pygments/pygments/pull/3213)), and JSX ([#3214](https://github.com/pygments/pygments/pull/3214)).
 
 **Developer & infra tooling**
 
+- [**codespell-project/codespell**](https://github.com/codespell-project/codespell): [#3975](https://github.com/codespell-project/codespell/pull/3975) scopes TOML configuration reads to `[tool.codespell]`.
+- [**fsspec/filesystem_spec**](https://github.com/fsspec/filesystem_spec): [#2074](https://github.com/fsspec/filesystem_spec/pull/2074) fixes removal of directory symlinks in `LocalFileSystem`.
+- [**wntrblm/nox**](https://github.com/wntrblm/nox): [#1127](https://github.com/wntrblm/nox/pull/1127) corrects `python_versions()` minimum resolution for major-only and multiple lower bounds.
+- [**urwid/urwid**](https://github.com/urwid/urwid): [#1187](https://github.com/urwid/urwid/pull/1187) copies signal-handler lists before emission so mutation cannot skip callbacks.
+- [**BrianPugh/cyclopts**](https://github.com/BrianPugh/cyclopts): [#860](https://github.com/BrianPugh/cyclopts/pull/860) restores zsh subcommand completion after meta positionals.
 - [**rclone/rclone**](https://github.com/rclone/rclone) — goroutine leak in `NewStatsGroup` for zero-transfer rc jobs ([#9568](https://github.com/rclone/rclone/pull/9568)); `serve webdav` default `Overwrite: T` for COPY/MOVE ([#9558](https://github.com/rclone/rclone/pull/9558)).
 - [**goreleaser/goreleaser**](https://github.com/goreleaser/goreleaser) — [#6684](https://github.com/goreleaser/goreleaser/pull/6684): default the winget head branch to a versioned template.
 - [**astral-sh/uv**](https://github.com/astral-sh/uv) — [#19983](https://github.com/astral-sh/uv/pull/19983): explain why files are skipped during registry index parsing.
@@ -66,6 +76,13 @@ Merged PRs across upstream projects.
 
 **Python libraries**
 
+- [**pydantic/pydantic-settings**](https://github.com/pydantic/pydantic-settings): [#910](https://github.com/pydantic/pydantic-settings/pull/910) parses enum names through nested annotations.
+- [**pydantic/pydantic-extra-types**](https://github.com/pydantic/pydantic-extra-types): [#403](https://github.com/pydantic/pydantic-extra-types/pull/403) rejects non-ASCII digits in ABA routing numbers.
+- [**jd/tenacity**](https://github.com/jd/tenacity): [#654](https://github.com/jd/tenacity/pull/654) avoids unnecessary exponential-wait computation.
+- [**GrahamDumpleton/wrapt**](https://github.com/GrahamDumpleton/wrapt): [#345](https://github.com/GrahamDumpleton/wrapt/pull/345) makes `bytes()` on a proxy match the wrapped object.
+- [**splintered-reality/py_trees**](https://github.com/splintered-reality/py_trees): [#505](https://github.com/splintered-reality/py_trees/pull/505) recovers memory sequences after child replacement.
+- [**nose-devs/nose2**](https://github.com/nose-devs/nose2): [#674](https://github.com/nose-devs/nose2/pull/674) fixes JUnit XML timestamps for subtests.
+- [**python-poetry/tomlkit**](https://github.com/python-poetry/tomlkit): [#551](https://github.com/python-poetry/tomlkit/pull/551) preserves a multiline string's leading newline when built with `string()`.
 - [**rthalley/dnspython**](https://github.com/rthalley/dnspython) — [#1279](https://github.com/rthalley/dnspython/pull/1279): raise `BadTTL` for non-decimal Unicode digits in `dns.ttl.from_text()`.
 - [**lepture/mistune**](https://github.com/lepture/mistune) — [#462](https://github.com/lepture/mistune/pull/462): escape literal emphasis markers in `MarkdownRenderer`.
 - [**wireservice/agate**](https://github.com/wireservice/agate) — [#813](https://github.com/wireservice/agate/pull/813): fix `Table.from_fixed` reading data as schema for a file-like `schema_path`.
@@ -79,13 +96,12 @@ Merged PRs across upstream projects.
 
 **Web, media & apps**
 
-- [**mantinedev/mantine**](https://github.com/mantinedev/mantine) — [#8971](https://github.com/mantinedev/mantine/issues/8971): mark non-`menuitem` children inside `Menu.Dropdown` (autofocus placeholder, floating arrow) as `role="presentation"` for WAI-ARIA 1.2 compliance.
+- [**alphacrack/readme2demo**](https://github.com/alphacrack/readme2demo): [#134](https://github.com/alphacrack/readme2demo/pull/134) gives the step tutorial a distinct SEO title.
+- [**mantinedev/mantine**](https://github.com/mantinedev/mantine): mark non-`menuitem` children inside `Menu.Dropdown` as presentational for WAI-ARIA 1.2 compliance ([#9004](https://github.com/mantinedev/mantine/pull/9004)); export the `FormProviderProps` type ([#9009](https://github.com/mantinedev/mantine/pull/9009)).
 - [**suitenumerique/meet**](https://github.com/suitenumerique/meet) — role terminology consistency across localizations.
 - [**Stremio/stremio-web**](https://github.com/Stremio/stremio-web) — Lithuanian ISO 639-2 language code fix.
 - [**NuvioMedia/NuvioTV**](https://github.com/NuvioMedia/NuvioTV) — keyboard `Next` action restored on Android TV, subtitle-delay reset shortcut.
 - [**Flexget/Flexget**](https://github.com/Flexget/Flexget) — recursive `exists_series` for nested season folders, video-only matching to skip subtitles and metadata.
-
-In flight: [**MemTensor/MemOS**](https://github.com/MemTensor/MemOS) — 5 open PRs covering retry-after handling, JSON5-tolerant config patching, partial L3 abstraction salvage, auto-recall timeout, accurate memory counts.
 
 ## Stack
 
