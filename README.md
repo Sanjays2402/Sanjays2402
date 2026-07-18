@@ -42,7 +42,7 @@ Merged PRs across upstream projects.
 
 **AI, agents & memory**
 
-- [**openclaw/openclaw**](https://github.com/openclaw/openclaw) — agent runtime fixes for streamed-reply recovery, secrets auditing, codex synthetic-key handling, memory-core warning suppression, Discord voice session reuse, and PluralKit DM pairing.
+- [**openclaw/openclaw**](https://github.com/openclaw/openclaw) — agent runtime fixes for streamed-reply recovery ([#71467](https://github.com/openclaw/openclaw/pull/71467)), secrets auditing ([#69581](https://github.com/openclaw/openclaw/pull/69581)), Codex compaction auth ([#86418](https://github.com/openclaw/openclaw/pull/86418)), memory-core warning suppression ([#69941](https://github.com/openclaw/openclaw/pull/69941)), Discord voice session reuse ([#97746](https://github.com/openclaw/openclaw/pull/97746)), PluralKit DM pairing ([#86397](https://github.com/openclaw/openclaw/pull/86397)), omitted synthetic `maxTokens` fallbacks ([#98312](https://github.com/openclaw/openclaw/pull/98312)), and clearer plugin-install failures ([#98497](https://github.com/openclaw/openclaw/pull/98497)).
 - [**HKUDS/LightRAG**](https://github.com/HKUDS/LightRAG): [#3406](https://github.com/HKUDS/LightRAG/pull/3406) exposes the thinking-token budget in role configuration.
 - [**OpenAgentHQ/openagent-eval**](https://github.com/OpenAgentHQ/openagent-eval): [#170](https://github.com/OpenAgentHQ/openagent-eval/pull/170) normalizes naive staleness timestamps in corpus evaluation; [#192](https://github.com/OpenAgentHQ/openagent-eval/pull/192) includes the diagnosis step in structured error details.
 - [**OpenAgentHQ/modeldock**](https://github.com/OpenAgentHQ/modeldock): [#146](https://github.com/OpenAgentHQ/modeldock/pull/146) verifies that an Ollama model exists after a pull completes.
@@ -54,12 +54,14 @@ Merged PRs across upstream projects.
 - [**academy-agents/academy**](https://github.com/academy-agents/academy): [#433](https://github.com/academy-agents/academy/pull/433) fixes the default Academy home-directory location.
 - [**garrytan/gbrain**](https://github.com/garrytan/gbrain): [#1554](https://github.com/garrytan/gbrain/pull/1554) replaces a POSIX-only postinstall shim with a cross-platform Node implementation.
 - [**laceyp99/conductor-core**](https://github.com/laceyp99/conductor-core): [#20](https://github.com/laceyp99/conductor-core/pull/20) logs unsupported Google reasoning-effort values instead of silently accepting them.
-- [**nesquena/hermes-webui**](https://github.com/nesquena/hermes-webui) — endless-scroll prefetch race, streaming scroll-pin, custom provider config, mobile send-on-Enter with a real keyboard, and throttled session-refresh polling.
-- [**outsourc-e/hermes-workspace**](https://github.com/outsourc-e/hermes-workspace) — slash-menu autocomplete, distinct gateway-auth-rejected error path.
+- [**nesquena/hermes-webui**](https://github.com/nesquena/hermes-webui) — direct merges for an endless-scroll race ([#1949](https://github.com/nesquena/hermes-webui/pull/1949)), streaming timing ([#1599](https://github.com/nesquena/hermes-webui/pull/1599)), mobile keyboard Enter behavior ([#3130](https://github.com/nesquena/hermes-webui/pull/3130)), session-refresh polling ([#3129](https://github.com/nesquena/hermes-webui/pull/3129)), Docker guidance ([#2950](https://github.com/nesquena/hermes-webui/pull/2950)), provider-key errors ([#2949](https://github.com/nesquena/hermes-webui/pull/2949)), and transcript tool-card styling ([#2948](https://github.com/nesquena/hermes-webui/pull/2948)); release-integrated contributions for expired clarify prompts ([#4524](https://github.com/nesquena/hermes-webui/pull/4524)), bounded non-git context walks ([#4225](https://github.com/nesquena/hermes-webui/pull/4225)), paused cron grouping ([#4223](https://github.com/nesquena/hermes-webui/pull/4223)), default CLI-session visibility ([#4222](https://github.com/nesquena/hermes-webui/pull/4222)), external-session files ([#3314](https://github.com/nesquena/hermes-webui/pull/3314)), ephemeral turn fields ([#3313](https://github.com/nesquena/hermes-webui/pull/3313), [#3131](https://github.com/nesquena/hermes-webui/pull/3131)), remote gateway health ([#3312](https://github.com/nesquena/hermes-webui/pull/3312)), SSE connection handling ([#3128](https://github.com/nesquena/hermes-webui/pull/3128)), intermediate-message navigation ([#3127](https://github.com/nesquena/hermes-webui/pull/3127)), model-picker keyboard navigation ([#2952](https://github.com/nesquena/hermes-webui/pull/2952)), cross-container liveness ([#1887](https://github.com/nesquena/hermes-webui/pull/1887)), provider configuration ([#1883](https://github.com/nesquena/hermes-webui/pull/1883), [#1783](https://github.com/nesquena/hermes-webui/pull/1783)), and streaming scroll unpinning ([#1732](https://github.com/nesquena/hermes-webui/pull/1732)).
+- [**outsourc-e/hermes-workspace**](https://github.com/outsourc-e/hermes-workspace) — slash-menu autocomplete ([#251](https://github.com/outsourc-e/hermes-workspace/pull/251)), a distinct gateway-auth-rejected path ([#250](https://github.com/outsourc-e/hermes-workspace/pull/250)), and a dashboard health probe integrated through a shared commit ([#289](https://github.com/outsourc-e/hermes-workspace/pull/289)).
+- [**MrReasonable/sluice**](https://github.com/MrReasonable/sluice): the empty Claude Max response guard from [#33](https://github.com/MrReasonable/sluice/pull/33) landed through replacement PR #37.
+- [**steipete/CodexBar**](https://github.com/steipete/CodexBar): the missing `five_hour` OAuth fallback from [#741](https://github.com/steipete/CodexBar/pull/741) was folded into a maintainer patch on `main`.
 - [**huggingface/huggingface_hub**](https://github.com/huggingface/huggingface_hub) — [#4278](https://github.com/huggingface/huggingface_hub/pull/4278): fix typos in comments and a debug log message.
 - [**OpenHands/software-agent-sdk**](https://github.com/OpenHands/software-agent-sdk) — [#3399](https://github.com/OpenHands/software-agent-sdk/pull/3399): pin ACP `npx` launchers to reviewed versions.
 - [**OpenHands/OpenHands**](https://github.com/OpenHands/OpenHands) — [#14577](https://github.com/OpenHands/OpenHands/pull/14577): fix typos across comments, docstrings, and log messages.
-- [**plastic-labs/honcho**](https://github.com/plastic-labs/honcho) — surprisal filter format for level observations.
+- [**plastic-labs/honcho**](https://github.com/plastic-labs/honcho) — corrected the surprisal filter format for level observations ([#581](https://github.com/plastic-labs/honcho/pull/581)).
 
 **Language tooling & lexers**
 
@@ -81,7 +83,9 @@ Merged PRs across upstream projects.
 - [**astral-sh/uv**](https://github.com/astral-sh/uv) — [#19983](https://github.com/astral-sh/uv/pull/19983): explain why files are skipped during registry index parsing.
 - [**helix-editor/helix**](https://github.com/helix-editor/helix) — [#15939](https://github.com/helix-editor/helix/pull/15939): editorconfig test coverage for empty alternate brace groups.
 - [**prowler-cloud/prowler**](https://github.com/prowler-cloud/prowler) — [#11823](https://github.com/prowler-cloud/prowler/pull/11823): skip `MANUAL` findings in the compliance section tally to avoid a `KeyError`.
-- [**1Panel-dev/1Panel**](https://github.com/1Panel-dev/1Panel) — IPv6 hosts in self-signed SSL flow, `exec.LookPath` for `which()` cross-platform detection.
+- [**1Panel-dev/1Panel**](https://github.com/1Panel-dev/1Panel) — IPv6 hosts in the self-signed SSL flow ([#12652](https://github.com/1Panel-dev/1Panel/pull/12652)) and `exec.LookPath` for cross-platform command detection ([#12651](https://github.com/1Panel-dev/1Panel/pull/12651)).
+- [**sqlfluff/sqlfluff**](https://github.com/sqlfluff/sqlfluff): [#8062](https://github.com/sqlfluff/sqlfluff/pull/8062) parses ClickHouse tuple-element access on arbitrary expressions.
+- [**yfosp/start-here**](https://github.com/yfosp/start-here): [#953](https://github.com/yfosp/start-here/pull/953) adds Sanjay to the contributor list.
 
 **Python libraries**
 
@@ -106,15 +110,20 @@ Merged PRs across upstream projects.
 - [**vimalloc/flask-jwt-extended**](https://github.com/vimalloc/flask-jwt-extended) — [#579](https://github.com/vimalloc/flask-jwt-extended/pull/579): replace deprecated `datetime.utcnow()`.
 - [**tweepy/tweepy**](https://github.com/tweepy/tweepy) — [#2241](https://github.com/tweepy/tweepy/pull/2241): replace deprecated `datetime.utcnow()` in `MongodbCache.store`.
 - [**wolph/python-progressbar**](https://github.com/wolph/python-progressbar) — [#318](https://github.com/wolph/python-progressbar/pull/318): detect color support for `xterm-*` TERM values.
+- [**jab/bidict**](https://github.com/jab/bidict): [#380](https://github.com/jab/bidict/pull/380) materializes `product()` inputs passed to parametrized tests.
+- [**fabiocaccamo/python-benedict**](https://github.com/fabiocaccamo/python-benedict): [#583](https://github.com/fabiocaccamo/python-benedict/pull/583) handles non-string dictionary keys that contain lists in key-list and key-path traversal.
+- [**more-itertools/more-itertools**](https://github.com/more-itertools/more-itertools): [#1200](https://github.com/more-itertools/more-itertools/pull/1200) rejects negative slice sizes in `sliced()`.
 
 **Web, media & apps**
 
 - [**alphacrack/readme2demo**](https://github.com/alphacrack/readme2demo): [#134](https://github.com/alphacrack/readme2demo/pull/134) gives the step tutorial a distinct SEO title.
 - [**mantinedev/mantine**](https://github.com/mantinedev/mantine): mark non-`menuitem` children inside `Menu.Dropdown` as presentational for WAI-ARIA 1.2 compliance ([#9004](https://github.com/mantinedev/mantine/pull/9004)); export the `FormProviderProps` type ([#9009](https://github.com/mantinedev/mantine/pull/9009)).
-- [**suitenumerique/meet**](https://github.com/suitenumerique/meet) — role terminology consistency across localizations.
-- [**Stremio/stremio-web**](https://github.com/Stremio/stremio-web) — Lithuanian ISO 639-2 language code fix.
-- [**NuvioMedia/NuvioTV**](https://github.com/NuvioMedia/NuvioTV) — keyboard `Next` action restored on Android TV, subtitle-delay reset shortcut.
-- [**Flexget/Flexget**](https://github.com/Flexget/Flexget) — recursive `exists_series` for nested season folders, video-only matching to skip subtitles and metadata.
+- [**suitenumerique/meet**](https://github.com/suitenumerique/meet) — standardized role terminology across localizations ([#1285](https://github.com/suitenumerique/meet/pull/1285)).
+- [**Stremio/stremio-web**](https://github.com/Stremio/stremio-web) — Lithuanian ISO 639-2 language code fix ([#1230](https://github.com/Stremio/stremio-web/pull/1230)).
+- [**NuvioMedia/NuvioTV**](https://github.com/NuvioMedia/NuvioTV) — restored the Android TV keyboard `Next` action ([#1453](https://github.com/NuvioMedia/NuvioTV/pull/1453)) and added a subtitle-delay reset shortcut ([#1452](https://github.com/NuvioMedia/NuvioTV/pull/1452)).
+- [**Flexget/Flexget**](https://github.com/Flexget/Flexget) — recursive `exists_series` support for nested season folders ([#4987](https://github.com/Flexget/Flexget/pull/4987)) and video-only matching that skips subtitles and metadata ([#4986](https://github.com/Flexget/Flexget/pull/4986)).
+- [**PaRaN01a-hash/ultra-max-addon**](https://github.com/PaRaN01a-hash/ultra-max-addon): [#15](https://github.com/PaRaN01a-hash/ultra-max-addon/pull/15) adds manifest behavior hints and ID prefixes for Nuvio compatibility.
+- [**aliasvault/aliasvault**](https://github.com/aliasvault/aliasvault): [#1893](https://github.com/aliasvault/aliasvault/pull/1893) adds HTML, plain-text, and source views for email content.
 
 ## Stack
 
