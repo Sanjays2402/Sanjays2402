@@ -44,7 +44,13 @@ Merged PRs across upstream projects.
 
 - [**openclaw/openclaw**](https://github.com/openclaw/openclaw) — agent runtime fixes for streamed-reply recovery, secrets auditing, codex synthetic-key handling, memory-core warning suppression, Discord voice session reuse, and PluralKit DM pairing.
 - [**HKUDS/LightRAG**](https://github.com/HKUDS/LightRAG): [#3406](https://github.com/HKUDS/LightRAG/pull/3406) exposes the thinking-token budget in role configuration.
-- [**OpenAgentHQ/openagent-eval**](https://github.com/OpenAgentHQ/openagent-eval): [#170](https://github.com/OpenAgentHQ/openagent-eval/pull/170) normalizes naive staleness timestamps in corpus evaluation.
+- [**OpenAgentHQ/openagent-eval**](https://github.com/OpenAgentHQ/openagent-eval): [#170](https://github.com/OpenAgentHQ/openagent-eval/pull/170) normalizes naive staleness timestamps in corpus evaluation; [#192](https://github.com/OpenAgentHQ/openagent-eval/pull/192) includes the diagnosis step in structured error details.
+- [**OpenAgentHQ/modeldock**](https://github.com/OpenAgentHQ/modeldock): [#146](https://github.com/OpenAgentHQ/modeldock/pull/146) verifies that an Ollama model exists after a pull completes.
+- [**bradygaster/squad**](https://github.com/bradygaster/squad): [#1492](https://github.com/bradygaster/squad/pull/1492) prevents binary corruption when files under `.squad/` are externalized and restored.
+- [**MakazhanAlpamys/Soup**](https://github.com/MakazhanAlpamys/Soup): [#315](https://github.com/MakazhanAlpamys/Soup/pull/315) runs built-in benchmark gate tasks during evaluation.
+- [**turnstonelabs/turnstone**](https://github.com/turnstonelabs/turnstone): [#862](https://github.com/turnstonelabs/turnstone/pull/862) records operator skill changes in session history.
+- [**repowise-dev/repowise**](https://github.com/repowise-dev/repowise): [#848](https://github.com/repowise-dev/repowise/pull/848) uses synchronous execution for webhook jobs.
+- [**memtomem/memtomem**](https://github.com/memtomem/memtomem): [#1793](https://github.com/memtomem/memtomem/pull/1793) splits oversized Markdown parts during chunking.
 - [**academy-agents/academy**](https://github.com/academy-agents/academy): [#433](https://github.com/academy-agents/academy/pull/433) fixes the default Academy home-directory location.
 - [**garrytan/gbrain**](https://github.com/garrytan/gbrain): [#1554](https://github.com/garrytan/gbrain/pull/1554) replaces a POSIX-only postinstall shim with a cross-platform Node implementation.
 - [**laceyp99/conductor-core**](https://github.com/laceyp99/conductor-core): [#20](https://github.com/laceyp99/conductor-core/pull/20) logs unsupported Google reasoning-effort values instead of silently accepting them.
@@ -63,7 +69,10 @@ Merged PRs across upstream projects.
 **Developer & infra tooling**
 
 - [**codespell-project/codespell**](https://github.com/codespell-project/codespell): [#3975](https://github.com/codespell-project/codespell/pull/3975) scopes TOML configuration reads to `[tool.codespell]`.
-- [**fsspec/filesystem_spec**](https://github.com/fsspec/filesystem_spec): [#2074](https://github.com/fsspec/filesystem_spec/pull/2074) fixes removal of directory symlinks in `LocalFileSystem`.
+- [**fsspec/filesystem_spec**](https://github.com/fsspec/filesystem_spec): [#2072](https://github.com/fsspec/filesystem_spec/pull/2072) fixes S3 parent paths in `ArrowFSWrapper`; [#2074](https://github.com/fsspec/filesystem_spec/pull/2074) fixes removal of directory symlinks in `LocalFileSystem`.
+- [**shanevcantwell/llauncher**](https://github.com/shanevcantwell/llauncher): [#353](https://github.com/shanevcantwell/llauncher/pull/353) keeps same-model servers distinct by port in the UI.
+- [**mila-iqia/cluv**](https://github.com/mila-iqia/cluv): [#144](https://github.com/mila-iqia/cluv/pull/144) preserves an existing results directory during initialization.
+- [**ministackorg/ministack**](https://github.com/ministackorg/ministack): [#1089](https://github.com/ministackorg/ministack/pull/1089) honors `LogType` when returning Lambda invocation logs.
 - [**wntrblm/nox**](https://github.com/wntrblm/nox): [#1127](https://github.com/wntrblm/nox/pull/1127) corrects `python_versions()` minimum resolution for major-only and multiple lower bounds.
 - [**urwid/urwid**](https://github.com/urwid/urwid): [#1187](https://github.com/urwid/urwid/pull/1187) copies signal-handler lists before emission so mutation cannot skip callbacks.
 - [**BrianPugh/cyclopts**](https://github.com/BrianPugh/cyclopts): [#860](https://github.com/BrianPugh/cyclopts/pull/860) restores zsh subcommand completion after meta positionals.
@@ -76,6 +85,10 @@ Merged PRs across upstream projects.
 
 **Python libraries**
 
+- [**chardet/chardet**](https://github.com/chardet/chardet): [#372](https://github.com/chardet/chardet/pull/372) stops ASCII `+<digits>` text from being misdetected as UTF-7.
+- [**uqfoundation/dill**](https://github.com/uqfoundation/dill): [#764](https://github.com/uqfoundation/dill/pull/764) marks `TestNamespace` as a non-test class during collection.
+- [**mahmoud/boltons**](https://github.com/mahmoud/boltons): [#418](https://github.com/mahmoud/boltons/pull/418) prevents `singularize()` from mangling words ending in `ss`.
+- [**redis/redis-py**](https://github.com/redis/redis-py): [#4193](https://github.com/redis/redis-py/pull/4193) restores Sentinel connection-pool capacity after failover.
 - [**pydantic/pydantic-settings**](https://github.com/pydantic/pydantic-settings): [#910](https://github.com/pydantic/pydantic-settings/pull/910) parses enum names through nested annotations.
 - [**pydantic/pydantic-extra-types**](https://github.com/pydantic/pydantic-extra-types): [#403](https://github.com/pydantic/pydantic-extra-types/pull/403) rejects non-ASCII digits in ABA routing numbers.
 - [**jd/tenacity**](https://github.com/jd/tenacity): [#654](https://github.com/jd/tenacity/pull/654) avoids unnecessary exponential-wait computation.
