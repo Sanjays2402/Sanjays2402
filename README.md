@@ -62,6 +62,7 @@ Merged PRs across upstream projects.
 - [**OpenHands/software-agent-sdk**](https://github.com/OpenHands/software-agent-sdk) — [#3399](https://github.com/OpenHands/software-agent-sdk/pull/3399): pin ACP `npx` launchers to reviewed versions.
 - [**OpenHands/OpenHands**](https://github.com/OpenHands/OpenHands) — [#14577](https://github.com/OpenHands/OpenHands/pull/14577): fix typos across comments, docstrings, and log messages.
 - [**plastic-labs/honcho**](https://github.com/plastic-labs/honcho) — corrected the surprisal filter format for level observations ([#581](https://github.com/plastic-labs/honcho/pull/581)).
+- [**dkedar7/streamlit-mcp**](https://github.com/dkedar7/streamlit-mcp) — [#63](https://github.com/dkedar7/streamlit-mcp/pull/63) accepts typed current values in schemas for widgets with non-string options.
 
 **Language tooling & lexers**
 
@@ -113,6 +114,7 @@ Merged PRs across upstream projects.
 - [**jab/bidict**](https://github.com/jab/bidict): [#380](https://github.com/jab/bidict/pull/380) materializes `product()` inputs passed to parametrized tests.
 - [**fabiocaccamo/python-benedict**](https://github.com/fabiocaccamo/python-benedict): [#583](https://github.com/fabiocaccamo/python-benedict/pull/583) handles non-string dictionary keys that contain lists in key-list and key-path traversal.
 - [**more-itertools/more-itertools**](https://github.com/more-itertools/more-itertools): [#1200](https://github.com/more-itertools/more-itertools/pull/1200) rejects negative slice sizes in `sliced()`.
+- [**Yakifo/amqtt**](https://github.com/Yakifo/amqtt) — [#350](https://github.com/Yakifo/amqtt/pull/350) treats empty or truncated MQTT fixed-header reads as end-of-stream.
 
 **Web, media & apps**
 
