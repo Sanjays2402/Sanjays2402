@@ -79,6 +79,7 @@ Merged PRs across upstream projects.
 - [**wntrblm/nox**](https://github.com/wntrblm/nox): [#1127](https://github.com/wntrblm/nox/pull/1127) corrects `python_versions()` minimum resolution for major-only and multiple lower bounds.
 - [**urwid/urwid**](https://github.com/urwid/urwid): [#1187](https://github.com/urwid/urwid/pull/1187) copies signal-handler lists before emission so mutation cannot skip callbacks.
 - [**BrianPugh/cyclopts**](https://github.com/BrianPugh/cyclopts): [#860](https://github.com/BrianPugh/cyclopts/pull/860) restores zsh subcommand completion after meta positionals.
+- [**tomerfiliba/plumbum**](https://github.com/tomerfiliba/plumbum): [#838](https://github.com/tomerfiliba/plumbum/pull/838) ignores annotations for non-positional `main` parameters in the CLI layer.
 - [**rclone/rclone**](https://github.com/rclone/rclone) — goroutine leak in `NewStatsGroup` for zero-transfer rc jobs ([#9568](https://github.com/rclone/rclone/pull/9568)); `serve webdav` default `Overwrite: T` for COPY/MOVE ([#9558](https://github.com/rclone/rclone/pull/9558)).
 - [**goreleaser/goreleaser**](https://github.com/goreleaser/goreleaser) — [#6684](https://github.com/goreleaser/goreleaser/pull/6684): default the winget head branch to a versioned template.
 - [**astral-sh/uv**](https://github.com/astral-sh/uv) — [#19983](https://github.com/astral-sh/uv/pull/19983): explain why files are skipped during registry index parsing.
