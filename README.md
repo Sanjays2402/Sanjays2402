@@ -68,6 +68,14 @@ Merged PRs across upstream projects.
 
 - [**astral-sh/ruff**](https://github.com/astral-sh/ruff) — [#26318](https://github.com/astral-sh/ruff/pull/26318): skip `D418` (`overload-with-docstring`) in stub files, where overloads cannot carry the docstring on an implementation.
 - [**pygments/pygments**](https://github.com/pygments/pygments): 15 lexer and formatter fixes across Kotlin ([#3178](https://github.com/pygments/pygments/pull/3178), [#3212](https://github.com/pygments/pygments/pull/3212)), C++ ([#3176](https://github.com/pygments/pygments/pull/3176)), LaTeX/TeX ([#3175](https://github.com/pygments/pygments/pull/3175), [#3204](https://github.com/pygments/pygments/pull/3204)), TypeScript ([#3172](https://github.com/pygments/pygments/pull/3172)), Ruby ([#3171](https://github.com/pygments/pygments/pull/3171)), Vala ([#3206](https://github.com/pygments/pygments/pull/3206), [#3207](https://github.com/pygments/pygments/pull/3207)), Jsonnet ([#3208](https://github.com/pygments/pygments/pull/3208)), YAML ([#3209](https://github.com/pygments/pygments/pull/3209)), SCSS ([#3210](https://github.com/pygments/pygments/pull/3210)), Kusto ([#3211](https://github.com/pygments/pygments/pull/3211)), C# ([#3213](https://github.com/pygments/pygments/pull/3213)), and JSX ([#3214](https://github.com/pygments/pygments/pull/3214)).
+- [**gilch/hissp**](https://github.com/gilch/hissp): [#327](https://github.com/gilch/hissp/pull/327) falls back to a higher pickle protocol when protocol 0 fails.
+- [**davidhalter/parso**](https://github.com/davidhalter/parso): [#242](https://github.com/davidhalter/parso/pull/242) stops treating a walrus argument as a keyword argument.
+- [**trentm/python-markdown2**](https://github.com/trentm/python-markdown2): [#719](https://github.com/trentm/python-markdown2/pull/719) treats `head` and `style` as block-level tags.
+- [**PyCQA/docformatter**](https://github.com/PyCQA/docformatter): [#364](https://github.com/PyCQA/docformatter/pull/364) stops treating a bracketed string literal as an attribute docstring; [#363](https://github.com/PyCQA/docformatter/pull/363) stops splitting a summary on a period inside an inline literal; [#362](https://github.com/PyCQA/docformatter/pull/362) stops emitting stray newline tokens before a trailing comment.
+- [**PyCQA/autoflake**](https://github.com/PyCQA/autoflake): [#361](https://github.com/PyCQA/autoflake/pull/361) treats interpreter builtin modules as safe imports.
+- [**tconbeer/sqlfmt**](https://github.com/tconbeer/sqlfmt): [#843](https://github.com/tconbeer/sqlfmt/pull/843) stops treating semicolons inside comments as statement terminators.
+- [**pylint-dev/pylint**](https://github.com/pylint-dev/pylint): [#11187](https://github.com/pylint-dev/pylint/pull/11187) fixes an `assignment-from-no-return` false positive on a trailing raise.
+- [**pylint-dev/astroid**](https://github.com/pylint-dev/astroid): [#3152](https://github.com/pylint-dev/astroid/pull/3152) only adds the `_HAS_DEFAULT_FACTORY` sentinel when a `default_factory` is used.
 
 **Developer & infra tooling**
 
@@ -88,6 +96,40 @@ Merged PRs across upstream projects.
 - [**1Panel-dev/1Panel**](https://github.com/1Panel-dev/1Panel) — IPv6 hosts in the self-signed SSL flow ([#12652](https://github.com/1Panel-dev/1Panel/pull/12652)) and `exec.LookPath` for cross-platform command detection ([#12651](https://github.com/1Panel-dev/1Panel/pull/12651)).
 - [**sqlfluff/sqlfluff**](https://github.com/sqlfluff/sqlfluff): [#8062](https://github.com/sqlfluff/sqlfluff/pull/8062) parses ClickHouse tuple-element access on arbitrary expressions.
 - [**yfosp/start-here**](https://github.com/yfosp/start-here): [#953](https://github.com/yfosp/start-here/pull/953) adds Sanjay to the contributor list.
+- [**napalm-automation/napalm**](https://github.com/napalm-automation/napalm): [#2333](https://github.com/napalm-automation/napalm/pull/2333) brackets literal IPv6 hosts when building the NX-API URL.
+- [**Ericsson/codechecker**](https://github.com/Ericsson/codechecker): [#5002](https://github.com/Ericsson/codechecker/pull/5002) strips ANSI escapes from clang-tidy output when collecting mentioned files.
+- [**soxoj/maigret**](https://github.com/soxoj/maigret): [#2924](https://github.com/soxoj/maigret/pull/2924) stops the `SUPPORTED_IDS` branch re-adding a rejected username in `extract_ids_from_page`.
+- [**sartography/SpiffWorkflow**](https://github.com/sartography/SpiffWorkflow): [#483](https://github.com/sartography/SpiffWorkflow/pull/483) raises a clear `ValidationException` for a `ServiceTask` with no operator.
+- [**casperdcl/git-fame**](https://github.com/casperdcl/git-fame): [#125](https://github.com/casperdcl/git-fame/pull/125) counts LOC and files when passing multiple repos.
+- [**tqdm/shtab**](https://github.com/tqdm/shtab): [#221](https://github.com/tqdm/shtab/pull/221) treats `nargs=0` custom actions as flags in zsh; [#220](https://github.com/tqdm/shtab/pull/220) supports non-sequence choices in zsh completion.
+- [**nicolargo/glances**](https://github.com/nicolargo/glances): [#3635](https://github.com/nicolargo/glances/pull/3635) resolves port alert level by severity instead of dict ordering; [#3626](https://github.com/nicolargo/glances/pull/3626) corrects the column/value mismatch for list plugins in TimescaleDB.
+- [**boxed/mutmut**](https://github.com/boxed/mutmut): [#542](https://github.com/boxed/mutmut/pull/542) forwards the generator return value through the trampoline.
+- [**mkb79/audible-cli**](https://github.com/mkb79/audible-cli): [#269](https://github.com/mkb79/audible-cli/pull/269) passes the config path to `click.edit` as a string.
+- [**ipspace/netlab**](https://github.com/ipspace/netlab): [#3720](https://github.com/ipspace/netlab/pull/3720) catches `KeyboardInterrupt` when aborting test cleanup.
+- [**MarketSquare/robotframework-robocop**](https://github.com/MarketSquare/robotframework-robocop): [#1786](https://github.com/MarketSquare/robotframework-robocop/pull/1786) marks `--ignore` values as matched for rules below `--threshold`.
+- [**GothenburgBitFactory/bugwarrior**](https://github.com/GothenburgBitFactory/bugwarrior): [#1227](https://github.com/GothenburgBitFactory/bugwarrior/pull/1227) coerces the Logseq block id to an int for a stable unique key.
+- [**opensteno/plover**](https://github.com/opensteno/plover): [#1857](https://github.com/opensteno/plover/pull/1857) escapes characters outside code page 1252 on RTF/CRE export.
+- [**amanusk/s-tui**](https://github.com/amanusk/s-tui): [#296](https://github.com/amanusk/s-tui/pull/296) handles non-`IndexError` failures in graph and summary updates; [#295](https://github.com/amanusk/s-tui/pull/295) falls back to `/proc/device-tree/model` for the processor name.
+- [**abrignoni/iLEAPP**](https://github.com/abrignoni/iLEAPP): [#1773](https://github.com/abrignoni/iLEAPP/pull/1773) skips `NoteStore.sqlite` files without the CloudKit table; [#1772](https://github.com/abrignoni/iLEAPP/pull/1772) handles alarms whose sound is a song.
+- [**sipyourdrink-ltd/bernstein**](https://github.com/sipyourdrink-ltd/bernstein): [#3163](https://github.com/sipyourdrink-ltd/bernstein/pull/3163) fails loudly when no trend-scan fetcher is configured.
+- [**microsoft/WinAppVSCE**](https://github.com/microsoft/WinAppVSCE): [#116](https://github.com/microsoft/WinAppVSCE/pull/116) resolves a relative `launch.json` `workingDirectory` against the workspace folder.
+- [**GNS3/gns3-server**](https://github.com/GNS3/gns3-server): [#2833](https://github.com/GNS3/gns3-server/pull/2833) stops starting nodes when deleting a project; [#2831](https://github.com/GNS3/gns3-server/pull/2831) corrects an always-true state check in `DockerVM.stop()`.
+- [**Kohei-Wada/taskdog**](https://github.com/Kohei-Wada/taskdog): [#1168](https://github.com/Kohei-Wada/taskdog/pull/1168) reports real statistics sections in `get_statistics`; [#1165](https://github.com/Kohei-Wada/taskdog/pull/1165) aligns the SQL `end_date` filter with whole-day semantics.
+- [**doorstop-dev/doorstop**](https://github.com/doorstop-dev/doorstop): [#808](https://github.com/doorstop-dev/doorstop/pull/808) stops escaping dollar signs that delimit inline math in LaTeX export; [#802](https://github.com/doorstop-dev/doorstop/pull/802) reports links to inactive items as inactive rather than unknown.
+- [**ebroecker/canmatrix**](https://github.com/ebroecker/canmatrix): [#919](https://github.com/ebroecker/canmatrix/pull/919) preserves the `NS_` new-symbols section on dbc-to-dbc conversion.
+- [**mnemosyne-oss/mnemosyne**](https://github.com/mnemosyne-oss/mnemosyne): [#542](https://github.com/mnemosyne-oss/mnemosyne/pull/542) reports `memory_not_found` when invalidate matches no row.
+- [**rmartin16/qbittorrent-api**](https://github.com/rmartin16/qbittorrent-api): [#644](https://github.com/rmartin16/qbittorrent-api/pull/644) preserves the cached client when slicing or copying `List` objects.
+- [**ai-dynamo/aiperf**](https://github.com/ai-dynamo/aiperf): [#1195](https://github.com/ai-dynamo/aiperf/pull/1195) handles top-level JSON array responses.
+- [**Bachmann1234/diff_cover**](https://github.com/Bachmann1234/diff_cover): [#612](https://github.com/Bachmann1234/diff_cover/pull/612) honors the `format` option from the config file.
+- [**CodeGraphContext/CodeGraphContext**](https://github.com/CodeGraphContext/CodeGraphContext): [#1376](https://github.com/CodeGraphContext/CodeGraphContext/pull/1376) wires `PARALLEL_WORKERS` config to indexing concurrency.
+- [**mstar-project/mstar**](https://github.com/mstar-project/mstar): [#190](https://github.com/mstar-project/mstar/pull/190) decodes streamed lines when `Content-Type` has no charset.
+- [**carderne/signal-export**](https://github.com/carderne/signal-export): [#224](https://github.com/carderne/signal-export/pull/224) stops creating the output folder when no chats are exported.
+- [**snstac/pytak**](https://github.com/snstac/pytak): [#104](https://github.com/snstac/pytak/pull/104) warns when WS TX sends raw XML to a TAK Protocol endpoint.
+- [**archlinux/archinstall**](https://github.com/archlinux/archinstall): [#4670](https://github.com/archlinux/archinstall/pull/4670) adds ghostscript to the print service packages.
+- [**apache/libcloud**](https://github.com/apache/libcloud): [#2173](https://github.com/apache/libcloud/pull/2173) includes IPv6 addresses in DigitalOcean node public/private IPs.
+- [**common-workflow-language/cwltool**](https://github.com/common-workflow-language/cwltool): [#2316](https://github.com/common-workflow-language/cwltool/pull/2316) gives a meaningful error for an empty job order file.
+- [**jorio/gitfourchette**](https://github.com/jorio/gitfourchette): [#130](https://github.com/jorio/gitfourchette/pull/130) reports Git's error instead of `NotImplementedError` on cherry-pick.
+- [**papis/papis**](https://github.com/papis/papis): [#1212](https://github.com/papis/papis/pull/1212) makes YAML export appendable.
 
 **Python libraries**
 
@@ -103,7 +145,7 @@ Merged PRs across upstream projects.
 - [**nose-devs/nose2**](https://github.com/nose-devs/nose2): [#674](https://github.com/nose-devs/nose2/pull/674) fixes JUnit XML timestamps for subtests.
 - [**python-poetry/tomlkit**](https://github.com/python-poetry/tomlkit): [#551](https://github.com/python-poetry/tomlkit/pull/551) preserves a multiline string's leading newline when built with `string()`.
 - [**rthalley/dnspython**](https://github.com/rthalley/dnspython) — [#1279](https://github.com/rthalley/dnspython/pull/1279): raise `BadTTL` for non-decimal Unicode digits in `dns.ttl.from_text()`.
-- [**lepture/mistune**](https://github.com/lepture/mistune) — [#462](https://github.com/lepture/mistune/pull/462): escape literal emphasis markers in `MarkdownRenderer`.
+- [**lepture/mistune**](https://github.com/lepture/mistune) — [#462](https://github.com/lepture/mistune/pull/462): escape literal emphasis markers in `MarkdownRenderer`; [#471](https://github.com/lepture/mistune/pull/471): apply the escape flag to a user-supplied HTML renderer.
 - [**wireservice/agate**](https://github.com/wireservice/agate) — [#813](https://github.com/wireservice/agate/pull/813): fix `Table.from_fixed` reading data as schema for a file-like `schema_path`.
 - [**kvesteri/sqlalchemy-utils**](https://github.com/kvesteri/sqlalchemy-utils) — [#812](https://github.com/kvesteri/sqlalchemy-utils/pull/812): fix `PasswordType` dropping updates when the column was previously NULL.
 - [**neuml/txtai**](https://github.com/neuml/txtai) — [#1125](https://github.com/neuml/txtai/pull/1125): raise `SQLError` on unterminated bracket and function clauses.
@@ -116,6 +158,22 @@ Merged PRs across upstream projects.
 - [**fabiocaccamo/python-benedict**](https://github.com/fabiocaccamo/python-benedict): [#583](https://github.com/fabiocaccamo/python-benedict/pull/583) handles non-string dictionary keys that contain lists in key-list and key-path traversal.
 - [**more-itertools/more-itertools**](https://github.com/more-itertools/more-itertools): [#1200](https://github.com/more-itertools/more-itertools/pull/1200) rejects negative slice sizes in `sliced()`.
 - [**Yakifo/amqtt**](https://github.com/Yakifo/amqtt) — [#350](https://github.com/Yakifo/amqtt/pull/350) treats empty or truncated MQTT fixed-header reads as end-of-stream.
+- [**aplbrain/grand-cypher**](https://github.com/aplbrain/grand-cypher): [#114](https://github.com/aplbrain/grand-cypher/pull/114) returns NULL from scalar functions given invalid argument types.
+- [**sooperset/mcp-atlassian**](https://github.com/sooperset/mcp-atlassian): [#1550](https://github.com/sooperset/mcp-atlassian/pull/1550) surfaces the environment system field on `JiraIssue`.
+- [**mpmath/mpmath**](https://github.com/mpmath/mpmath): [#1150](https://github.com/mpmath/mpmath/pull/1150) avoids spurious overflow in `fp.gammaprod`.
+- [**deeplook/svglib**](https://github.com/deeplook/svglib): [#499](https://github.com/deeplook/svglib/pull/499) respects the `visibility` property on shapes; [#494](https://github.com/deeplook/svglib/pull/494) looks up unquoted font-family names containing spaces; [#493](https://github.com/deeplook/svglib/pull/493) respects `display:none` set via the `style` attribute.
+- [**PyThaiNLP/pythainlp**](https://github.com/PyThaiNLP/pythainlp): [#1473](https://github.com/PyThaiNLP/pythainlp/pull/1473) romanizes royin words containing ฤ.
+- [**optiland/optiland**](https://github.com/optiland/optiland): [#702](https://github.com/optiland/optiland/pull/702) adds descriptive messages to bare `ValueError` raises in paraxial.
+- [**astropy/astropy**](https://github.com/astropy/astropy): [#20174](https://github.com/astropy/astropy/pull/20174) writes `solRad` and `solLum` instead of `Rsun` and `Lsun` in the CDS format.
+- [**guessit-io/guessit**](https://github.com/guessit-io/guessit): [#942](https://github.com/guessit-io/guessit/pull/942) keeps the title when `alternative_title` is excluded; [#936](https://github.com/guessit-io/guessit/pull/936) keeps a leading country word that opens the title.
+- [**MechanicalSoup/MechanicalSoup**](https://github.com/MechanicalSoup/MechanicalSoup): [#484](https://github.com/MechanicalSoup/MechanicalSoup/pull/484) detects HTML from raw leading bytes in `__looks_like_html`; [#483](https://github.com/MechanicalSoup/MechanicalSoup/pull/483) raises an explanatory error from `links()` when no page is loaded.
+- [**gorakhargosh/watchdog**](https://github.com/gorakhargosh/watchdog): [#1183](https://github.com/gorakhargosh/watchdog/pull/1183) stops `PermissionError` killing the kqueue emitter thread on BSD.
+- [**anymail/django-anymail**](https://github.com/anymail/django-anymail): [#479](https://github.com/anymail/django-anymail/pull/479) reports an unsupported feature for `merge_data` without `template_id`.
+- [**pyathena-dev/PyAthena**](https://github.com/pyathena-dev/PyAthena): [#743](https://github.com/pyathena-dev/PyAthena/pull/743) returns the formatted DATE literal from `AthenaDate.process`.
+- [**dynaconf/dynaconf**](https://github.com/dynaconf/dynaconf): [#1435](https://github.com/dynaconf/dynaconf/pull/1435) cleans up nested `dynaconf_merge` tokens when the parent key is new; [#1434](https://github.com/dynaconf/dynaconf/pull/1434) keeps sibling keys that share a dotted-path leaf name.
+- [**invoice-x/invoice2data**](https://github.com/invoice-x/invoice2data): [#716](https://github.com/invoice-x/invoice2data/pull/716) emits a single CSV header row across all invoices.
+- [**Ad-meliorael/percentify**](https://github.com/Ad-meliorael/percentify): [#35](https://github.com/Ad-meliorael/percentify/pull/35) keeps small p-values from rounding to zero in `correlate`.
+- [**marcosschroh/dataclasses-avroschema**](https://github.com/marcosschroh/dataclasses-avroschema): [#964](https://github.com/marcosschroh/dataclasses-avroschema/pull/964) serializes records without fields to avro-json; [#963](https://github.com/marcosschroh/dataclasses-avroschema/pull/963) stops mutating `Meta.field_order` during schema generation.
 
 **Web, media & apps**
 
@@ -127,6 +185,13 @@ Merged PRs across upstream projects.
 - [**Flexget/Flexget**](https://github.com/Flexget/Flexget) — recursive `exists_series` support for nested season folders ([#4987](https://github.com/Flexget/Flexget/pull/4987)) and video-only matching that skips subtitles and metadata ([#4986](https://github.com/Flexget/Flexget/pull/4986)).
 - [**PaRaN01a-hash/ultra-max-addon**](https://github.com/PaRaN01a-hash/ultra-max-addon): [#15](https://github.com/PaRaN01a-hash/ultra-max-addon/pull/15) adds manifest behavior hints and ID prefixes for Nuvio compatibility.
 - [**aliasvault/aliasvault**](https://github.com/aliasvault/aliasvault): [#1893](https://github.com/aliasvault/aliasvault/pull/1893) adds HTML, plain-text, and source views for email content.
+- [**plotly/dash**](https://github.com/plotly/dash): [#3936](https://github.com/plotly/dash/pull/3936) uses the proxied URL as the Jupyter server URL.
+- [**posit-dev/great-docs**](https://github.com/posit-dev/great-docs): [#299](https://github.com/posit-dev/great-docs/pull/299) preserves source order for sidebar subsections.
+- [**Donkie/Spoolman**](https://github.com/Donkie/Spoolman): [#987](https://github.com/Donkie/Spoolman/pull/987) strips the leading `#` from filament color codes.
+- [**reflex-dev/xy**](https://github.com/reflex-dev/xy): [#389](https://github.com/reflex-dev/xy/pull/389) floors the log axis lower bound when an explicit margin is set.
+- [**wkentaro/labelme**](https://github.com/wkentaro/labelme): [#2425](https://github.com/wkentaro/labelme/pull/2425) degrades to stderr-only logging when the log file fails; [#2417](https://github.com/wkentaro/labelme/pull/2417) reports the decode allocation limit instead of "Allowed formats".
+- [**GoogleChrome/chromium-dashboard**](https://github.com/GoogleChrome/chromium-dashboard): [#6656](https://github.com/GoogleChrome/chromium-dashboard/pull/6656) rejects milestone zero in `ChannelsAPI`.
+- [**jacebrowning/memegen**](https://github.com/jacebrowning/memegen): [#1046](https://github.com/jacebrowning/memegen/pull/1046) only drops trailing blank lines when cleaning URLs.
 
 ## Stack
 
