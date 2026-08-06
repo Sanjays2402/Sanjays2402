@@ -10,6 +10,11 @@ I build things end-to-end - backends, systems, ML, developer tools, native apps,
 - [**flight-sim**](https://github.com/Sanjays2402/flight-sim) — browser flight simulator with takeoff, landing, instrument HUD, and a Three.js terrain pipeline. No install, runs from `gh-pages`.
 - [**snip**](https://github.com/Sanjays2402/snip) — production-grade self-hosted URL shortener. TypeScript, Postgres, Redis, ClickHouse, BullMQ. Token-bucket rate limiting, signed webhooks, workspace RBAC, CLI client.
 - [**tsk**](https://github.com/Sanjays2402/tsk) — keyboard-first markdown todo manager. Go, Bubbletea TUI, atomic writes, natural-language due dates, shell completions.
+- [**core-stealth**](https://github.com/Sanjays2402/core-stealth) — privacy-auditing and QA browser harness. Tauri 2 + Rust core with a TypeScript UI, isolated browser profiles, fingerprint surface inspection, and region-locked QA runs.
+- [**signalclaw**](https://github.com/Sanjays2402/signalclaw) — terminal-style quant research dashboard. TypeScript + Python backtest engine, ticker tape, equity and drawdown panes, regime-aware header, true-black palette.
+- [**codeclone**](https://github.com/Sanjays2402/codeclone) — code-clone detection and ML evaluation dashboard. TypeScript + Python, synced side-by-side diff, eval pass/fail grid, Dockerized services with Terraform config.
+- [**clawhum**](https://github.com/Sanjays2402/clawhum) — audio fingerprinting and hum-to-find search. Python DSP pipeline behind a TypeScript oscilloscope UI, waveform panels, transport meters, spectrogram match previews.
+- [**adherence-ml**](https://github.com/Sanjays2402/adherence-ml) — clinical ML observability for medication adherence models. TypeScript + Python, live KPI sparklines, SHAP waterfall explainer, IBM Plex type system.
 - [**ai-particle-simulator**](https://github.com/Sanjays2402/ai-particle-simulator) — describe an effect, render 20K+ GPU-accelerated particles. React + Three.js + WebGL, LLM-driven prompt-to-shader pipeline.
 
 **CLIs & dev tools**
