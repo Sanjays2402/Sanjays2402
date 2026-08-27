@@ -1,7 +1,5 @@
 # 👋 Sanjay Santhanam
 
-**Syracuse University**
-
 Full-stack + systems engineer who ships end-to-end: backends, native apps, ML tooling, developer tools, and browser-based games. TypeScript, Python, Go, Swift, Rust.
 
 ---
