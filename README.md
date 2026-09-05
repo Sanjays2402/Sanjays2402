@@ -30,6 +30,14 @@ Full-stack + systems engineer who ships end-to-end: backends, native apps, ML to
 - **rclone/rclone** — goroutine leak fix, WebDAV overwrite default
 - **uv**, **helix**, **goreleaser**, **pylint**, **redis-py**, **pydantic**, **chardet**, **tweepy**, **tenacity**, **mistune**, and **50+ more**
 
+### Recent upstream work
+
+- [click-repl #138](https://github.com/click-contrib/click-repl/pull/138) — fixed completion at an empty root prompt
+- [grafana-client #326](https://github.com/grafana-toolbox/grafana-client/pull/326) — preserved configured headers for async clients
+- [python-json-logger #76](https://github.com/nhairs/python-json-logger/pull/76) — handled missing nested packages safely
+
+More fixes are staged in [WTForms](https://github.com/Sanjays2402/wtforms/tree/fix/oss-contribution) and [libvcs](https://github.com/Sanjays2402/libvcs/tree/fix/oss-contribution).
+
 ---
 
 ## ⚡ Quick Facts
