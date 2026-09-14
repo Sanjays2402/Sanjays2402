@@ -31,8 +31,6 @@
 - **rclone/rclone** — goroutine leak fix, WebDAV overwrite default
 - **uv**, **helix**, **goreleaser**, **pylint**, **redis-py**, **pydantic**, **chardet**, **tweepy**, **tenacity**, **mistune**, and **50+ more**
 
-Currently contributing fixes upstream at **AWS**, **Meta**, **Google**, **Microsoft**, **Prisma**, and **Atlassian**.
-
 ---
 
 ## 🛠 Stack
