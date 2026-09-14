@@ -82,6 +82,28 @@ SQLite checkpoints, fenced worker leases, durable retries, live execution inspec
 - **rclone/rclone** — goroutine leak fix, WebDAV overwrite default
 - **uv**, **helix**, **goreleaser**, **pylint**, **redis-py**, **pydantic**, **chardet**, **tweepy**, **tenacity**, **mistune**, and **50+ more**
 
+### 🔥 Recent upstream fixes
+
+A few examples, all linked — each with a repro, a narrow fix, and tests:
+
+- [facebook/hermes#2181](https://github.com/facebook/hermes/pull/2181) — `Date` was wrong for time zones whose standard offset changed over history (cached modern offset + historical DST)
+- [react/react#37559](https://github.com/react/react/pull/37559) — React Compiler's `DisjointSet.union()` mutated its input array via `shift()`
+- [pytorch/ao#4878](https://github.com/pytorch/ao/pull/4878) — PT2E Quick Start example now runs as documented
+- [facebook/docusaurus#12430](https://github.com/facebook/docusaurus/pull/12430) — broken-anchor checker recognizes arbitrary HTML anchors
+- [aws/aws-sdk-pandas#3475](https://github.com/aws/aws-sdk-pandas/pull/3475) — `emr.create_cluster` accepts bootstrap action arguments
+- [aws/aws-cli#10626](https://github.com/aws/aws-cli/pull/10626) — `aws ssm start-session` surfaces the real plugin-not-found error instead of a misleading permissions error
+- [aws/aws-sam-cli#9267](https://github.com/aws/aws-sam-cli/pull/9267) — `--role-arn` service role now flows to the companion stack
+- [aws/aws-lambda-builders#920](https://github.com/aws/aws-lambda-builders/pull/920) — PEP 517-only projects fall back to `pyproject.toml` metadata
+- [googleapis/google-cloud-python#18328](https://github.com/googleapis/google-cloud-python/pull/18328) — `AsyncAuthorizedSession` leaked response objects across retries
+- [firebase/extensions#3169](https://github.com/firebase/extensions/pull/3169) — storage-resize-images rejects bogus `IMAGE_TYPE` values at startup instead of writing broken files
+- [microsoft/fluentui#36725](https://github.com/microsoft/fluentui/pull/36725) — WeeklyDayPicker shows the correct week number in collapsed view
+- [microsoft/vscode-json-languageservice#366](https://github.com/microsoft/vscode-json-languageservice/pull/366) — pre-2019-09 sibling `$ref`s resolve against the referencing document's base URI
+- [microsoft/semantic-kernel#14448](https://github.com/microsoft/semantic-kernel/pull/14448) — `build_model_schema` keeps pydantic constraint objects out of field descriptions
+- [prisma/orm#30278](https://github.com/prisma/orm/pull/30278) — widening `SET DEFAULT` was silently skipped as a no-op by the migration idempotency probe
+- [prisma/orm#30277](https://github.com/prisma/orm/pull/30277) — clearer PSL parser diagnostic for `@@index([createdAt(sort: Desc)])`
+- [atlassian-labs/connect-security-req-tester#99](https://github.com/atlassian-labs/connect-security-req-tester/pull/99) / [#100](https://github.com/atlassian-labs/connect-security-req-tester/pull/100) — referrer policy via `<meta>` tag; query strings preserved in module URLs
+- [atlassian-labs/json-schema-viewer#52](https://github.com/atlassian-labs/json-schema-viewer/pull/52) — stop silently rewriting external `$ref` links from http to https
+
 ---
 
 ## 🛠 Stack
