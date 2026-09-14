@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="90" viewBox="0 0 900 90" role="img" aria-label="typing animation">
+<style>
+    .ph{opacity:0;animation:cyc 12s infinite}
+    .p0{animation-delay:0s}.p1{animation-delay:-9s}.p2{animation-delay:-6s}.p3{animation-delay:-3s}
+    @keyframes cyc{0%{opacity:0}2%{opacity:1}21%{opacity:1}25%{opacity:0}100%{opacity:0}}
+    .caret{animation:blink 1.06s steps(1) infinite}
+    @keyframes blink{50%{opacity:0}}
+  </style>
+  <g class="ph p0">
+    <text x="450" y="56" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="36" fill="#1f2328">$ I build end-to-end products.</text>
+    <rect class="caret" x="760" y="24" width="18" height="38" fill="#f0b429"/>
+  </g>
+  <g class="ph p1">
+    <text x="450" y="56" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="36" fill="#1f2328">$ I ship native apps.</text>
+    <rect class="caret" x="663" y="24" width="18" height="38" fill="#f0b429"/>
+  </g>
+  <g class="ph p2">
+    <text x="450" y="56" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="36" fill="#1f2328">$ I fix bugs upstream.</text>
+    <rect class="caret" x="674" y="24" width="18" height="38" fill="#f0b429"/>
+  </g>
+  <g class="ph p3">
+    <text x="450" y="56" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="36" fill="#1f2328">$ Full-stack + systems engineer.</text>
+    <rect class="caret" x="782" y="24" width="18" height="38" fill="#f0b429"/>
+  </g>
+</svg>
