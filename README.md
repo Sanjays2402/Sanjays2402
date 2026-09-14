@@ -8,14 +8,13 @@ Full-stack + systems engineer who ships end-to-end: backends, native apps, ML to
 
 | Project | What it does | Stack |
 |---|---|---|
-| **[optune](https://github.com/Sanjays2402/optune)** | Open-source Logitech Options+ replacement for macOS. 8 HID++ features, per-app profiles, CLI + menu bar. | Swift 6, SwiftUI, IOKit |
-| **[snip](https://github.com/Sanjays2402/snip)** | Production-grade self-hosted URL shortener. Token-bucket rate limiting, signed webhooks, RBAC. | TS, Postgres, Redis, ClickHouse, BullMQ |
-| **[tsk](https://github.com/Sanjays2402/tsk)** | Keyboard-first markdown todo manager. Natural-language due dates, shell completions. | Go, Bubbletea TUI |
-| **[core-stealth](https://github.com/Sanjays2402/core-stealth)** | Privacy-auditing QA browser harness. Isolated profiles, fingerprint inspection. | Tauri 2, Rust, TS |
-| **[flight-sim](https://github.com/Sanjays2402/flight-sim)** | Browser flight sim — takeoff, landing, instrument HUD. | Three.js, gh-pages |
-| **[ai-particle-simulator](https://github.com/Sanjays2402/ai-particle-simulator)** | Describe an effect → 20K+ GPU-accelerated particles. LLM-driven prompt-to-shader. | React, Three.js, WebGL |
+| **[city-friction-map](https://github.com/Sanjays2402/city-friction-map)** | Community-powered map of everyday city obstacles. Report, verify, save, and share local heads-ups; freshness badges, moderation queue, RSS, embeddable widgets. | JavaScript, Express, SQLite, Leaflet |
+| **[copilot-usage-tracker](https://github.com/Sanjays2402/copilot-usage-tracker)** | Enterprise GitHub Copilot usage & cost tracking. AI-credit billing model, team attribution, budgets, policy-as-code, tray app + dashboard, real Windows/macOS installers. | Python, Streamlit, SQLite |
+| **[Tilt](https://github.com/Sanjays2402/Tilt)** | Depth for your lid — close it and watch the screen lean away into frosted glass. Idle glass, battery saver, recordable preview hotkey. | Swift, SwiftUI, ScreenCaptureKit |
+| **[ferry](https://github.com/Sanjays2402/ferry)** | Lightweight distributed task queue for Python. SQLite-simple, production-serious: priorities, retries, schedules, live dashboard. | Python, SQLite |
+| **[retrace](https://github.com/Sanjays2402/retrace)** | Crash-resumable Python workflows. SQLite checkpoints, fenced worker leases, durable retries, live execution inspector. Zero runtime dependencies. | Python, asyncio, SQLite |
 
-**More:** `snippet-dev` · `gitsight` · `clawreview` · `context-clipboard` · `signalclaw` · `clawhum` · `adherence-ml` · `codeclone` · `CakePond` · `sunsprout` · `gta-vibes` · `pixel-forge` · and 10+ others.
+**More:** `optune` · `snip` · `tsk` · `core-stealth` · `flight-sim` · `ai-particle-simulator` · `slab` · `clawmind` · `triple-tic-tac-toe` · `data-forge` · `ascii-webcam` · `devdash` · `memory-matrix` · `2048-game` · `snippet-dev` · `gitsight` · `clawreview` · `context-clipboard` · `signalclaw` · `clawhum` · `adherence-ml` · `codeclone` · `CakePond` · `sunsprout` · `gta-vibes` · `pixel-forge` · `url-shortener` · `secure-notes-app` · `realtime-log-monitor` · `personal-file-backup` · and more.
 
 ---
 
