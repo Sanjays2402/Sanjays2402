@@ -1,6 +1,8 @@
 # 👋 Sanjay Santhanam
 
-Full-stack + systems engineer who ships end-to-end: backends, native apps, ML tooling, developer tools, and browser-based games. TypeScript, Python, Go, Swift, Rust.
+**Full-stack + systems engineer who ships.** I build end-to-end products — backends, native apps, ML tooling, developer tools, browser games — and release them to real users. I also fix bugs upstream in the open-source software the industry runs on.
+
+📍 Seattle
 
 ---
 
@@ -18,9 +20,9 @@ Full-stack + systems engineer who ships end-to-end: backends, native apps, ML to
 
 ---
 
-## 📦 Open Source Contributions
+## 📦 Open Source Footprint
 
-**60+ merged PRs** across industry projects:
+**60+ merged PRs** in projects used by millions:
 
 - **openclaw/openclaw** — streamed-reply recovery, secrets auditing, Codex compaction auth, Discord voice, PluralKit pairing
 - **nesquena/hermes-webui** — ~15 merged PRs (endless scroll, streaming timing, Docker, keyboard nav)
@@ -29,11 +31,13 @@ Full-stack + systems engineer who ships end-to-end: backends, native apps, ML to
 - **rclone/rclone** — goroutine leak fix, WebDAV overwrite default
 - **uv**, **helix**, **goreleaser**, **pylint**, **redis-py**, **pydantic**, **chardet**, **tweepy**, **tenacity**, **mistune**, and **50+ more**
 
+Currently contributing fixes upstream at **AWS**, **Meta**, **Google**, **Microsoft**, **Prisma**, and **Atlassian**.
+
 ---
 
-## ⚡ Quick Facts
+## 🛠 Stack
 
 - **Languages:** TypeScript, Python, Go, Swift, Rust, SQL, Shell
 - **Infra:** Postgres, Redis, ClickHouse, Docker, Terraform, BullMQ
 - **Domains:** Backend systems · Native macOS · Browser/WebGL · ML tooling · TUI/CLI · Developer tooling
-- **Other:** Keyboard-first design philosophy, no-install browser games, terminal aesthetics
+- **Style:** keyboard-first design, no-install browser apps, terminal aesthetics — tested and released, not just pushed
