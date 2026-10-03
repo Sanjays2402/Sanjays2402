@@ -1,28 +1,29 @@
-![Sanjay Santhanam — open source contributor and builder](assets/hero.svg)
+![Sanjay Santhanam — software engineer](assets/hero.svg)
 
-## Hi, I'm Sanjay — an OSS guy.
+## Hi, I'm Sanjay
 
-I build tools in public and contribute fixes upstream. Open source is where I turn curiosity into code: tracking down subtle bugs, making failures reproducible, and improving the tools developers rely on.
+I'm a software engineer in Seattle working on backend systems, native apps, and developer tools. I contribute upstream fixes across language tooling, developer infrastructure, and web applications.
 
-Based in Seattle, I work across language tooling, cloud SDKs, backend systems, and native apps. You'll find both my own projects and contributions to the wider ecosystem here.
+**[Contribution history](https://github.com/pulls?q=is%3Apr+author%3ASanjays2402)** · **[Merged pull requests](https://github.com/pulls?q=is%3Apr+author%3ASanjays2402+is%3Amerged)** · **[LinkedIn](https://www.linkedin.com/in/sanjay24/)**
 
-**[My upstream contributions](https://github.com/pulls?q=is%3Apr+author%3ASanjays2402)** · **[Merged pull requests](https://github.com/pulls?q=is%3Apr+author%3ASanjays2402+is%3Amerged)** · **[LinkedIn](https://www.linkedin.com/in/sanjay24/)**
+## Open-source contributions
 
-## Open source, first
+### Selected merged contributions
 
-From reply recovery and resource leaks to parser behavior and developer experience, I contribute across the stack.
-
-| Project | Contribution areas | My work |
+| Project | Change merged upstream | Pull request |
 | :--- | :--- | :--- |
-| **[OpenClaw](https://github.com/openclaw/openclaw)** | Reply recovery, secrets auditing, authentication, and Discord voice. | [Pull requests](https://github.com/openclaw/openclaw/pulls?q=is%3Apr+author%3ASanjays2402) |
-| **[Hermes WebUI](https://github.com/nesquena/hermes-webui)** | Streaming, scrolling, Docker setup, and keyboard navigation. | [Pull requests](https://github.com/nesquena/hermes-webui/pulls?q=is%3Apr+author%3ASanjays2402) |
-| **[Pygments](https://github.com/pygments/pygments)** | Lexer and formatter fixes across multiple languages. | [Pull requests](https://github.com/pygments/pygments/pulls?q=is%3Apr+author%3ASanjays2402) |
-| **[Ruff](https://github.com/astral-sh/ruff)** | D418 diagnostics for stub files. | [Pull requests](https://github.com/astral-sh/ruff/pulls?q=is%3Apr+author%3ASanjays2402) |
-| **[rclone](https://github.com/rclone/rclone)** | Goroutine cleanup and WebDAV overwrite behavior. | [Pull requests](https://github.com/rclone/rclone/pulls?q=is%3Apr+author%3ASanjays2402) |
+| **[OpenClaw](https://github.com/openclaw/openclaw)** | Fixed duplicate Telegram forum-topic replies and missing transcript mirrors. | [#158054](https://github.com/openclaw/openclaw/pull/158054) |
+| **[Pygments](https://github.com/pygments/pygments)** | Fixed JSX highlighting so apostrophes in element text no longer produce error tokens. | [#3214](https://github.com/pygments/pygments/pull/3214) |
+| **[Ruff](https://github.com/astral-sh/ruff)** | Removed false-positive D418 diagnostics for docstrings on overloaded functions in stub files. | [#26318](https://github.com/astral-sh/ruff/pull/26318) |
+| **[rclone](https://github.com/rclone/rclone)** | Stopped remote-control jobs that transfer no files from leaking stats goroutines. | [#9568](https://github.com/rclone/rclone/pull/9568) |
+| **[Hermes WebUI](https://github.com/nesquena/hermes-webui)** | Fixed message submission on touch devices with external keyboards. | [#3130](https://github.com/nesquena/hermes-webui/pull/3130) |
 
-### A closer look at my upstream work
+**More of my work in these projects:** [OpenClaw](https://github.com/openclaw/openclaw/pulls?q=is%3Apr+author%3ASanjays2402) · [Pygments](https://github.com/pygments/pygments/pulls?q=is%3Apr+author%3ASanjays2402) · [Ruff](https://github.com/astral-sh/ruff/pulls?q=is%3Apr+author%3ASanjays2402) · [rclone](https://github.com/rclone/rclone/pulls?q=is%3Apr+author%3ASanjays2402) · [Hermes WebUI](https://github.com/nesquena/hermes-webui/pulls?q=is%3Apr+author%3ASanjays2402)
 
-These pull requests show how I approach a bug: reproduce the failure, trace the cause, and add a focused fix with regression coverage.
+<details>
+<summary>Additional upstream pull requests</summary>
+
+Further work across frameworks, cloud SDKs, databases, and UI tooling:
 
 | Project | Proposed fix | Pull request |
 | :--- | :--- | :--- |
@@ -30,9 +31,6 @@ These pull requests show how I approach a bug: reproduce the failure, trace the 
 | **Google Cloud Python** | Close responses before retrying to avoid exhausting the connection pool. | [#18328](https://github.com/googleapis/google-cloud-python/pull/18328) |
 | **AWS CLI** | Report a missing Session Manager plugin before starting a session, preventing a misleading permissions error. | [#10626](https://github.com/aws/aws-cli/pull/10626) |
 | **Prisma ORM** | Execute column-default changes that the migration idempotency check incorrectly skipped. | [#30278](https://github.com/prisma/orm/pull/30278) |
-
-<details>
-<summary>More upstream pull requests</summary>
 
 - [facebook/hermes#2181](https://github.com/facebook/hermes/pull/2181) — `Date` was wrong for time zones whose standard offset changed over history (cached modern offset + historical DST)
 - [pytorch/ao#4878](https://github.com/pytorch/ao/pull/4878) — PT2E Quick Start example now runs as documented
@@ -49,8 +47,6 @@ These pull requests show how I approach a bug: reproduce the failure, trace the 
 - [atlassian-labs/json-schema-viewer#52](https://github.com/atlassian-labs/json-schema-viewer/pull/52) — stop silently rewriting external `$ref` links from http to https
 
 </details>
-
-[Browse all contributions](https://github.com/pulls?q=is%3Apr+author%3ASanjays2402) · [View merged pull requests](https://github.com/pulls?q=is%3Apr+author%3ASanjays2402+is%3Amerged)
 
 ## Open-source projects I build
 
