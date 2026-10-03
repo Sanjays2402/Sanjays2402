@@ -4,7 +4,7 @@
 
 I'm a software engineer in Seattle working on backend systems, native apps, and developer tools. I contribute upstream fixes across language tooling, developer infrastructure, and web applications.
 
-**[Contribution history](https://github.com/pulls?q=is%3Apr+author%3ASanjays2402)** · **[Merged pull requests](https://github.com/pulls?q=is%3Apr+author%3ASanjays2402+is%3Amerged)** · **[LinkedIn](https://www.linkedin.com/in/sanjay24/)**
+**[Merged pull requests](https://github.com/pulls?q=is%3Apr+author%3ASanjays2402+is%3Amerged)** · **[LinkedIn](https://www.linkedin.com/in/sanjay24/)**
 
 ## Open-source contributions
 
@@ -19,34 +19,6 @@ I'm a software engineer in Seattle working on backend systems, native apps, and 
 | **[Hermes WebUI](https://github.com/nesquena/hermes-webui)** | Fixed message submission on touch devices with external keyboards. | [#3130](https://github.com/nesquena/hermes-webui/pull/3130) |
 
 **More of my work in these projects:** [OpenClaw](https://github.com/openclaw/openclaw/pulls?q=is%3Apr+author%3ASanjays2402) · [Pygments](https://github.com/pygments/pygments/pulls?q=is%3Apr+author%3ASanjays2402) · [Ruff](https://github.com/astral-sh/ruff/pulls?q=is%3Apr+author%3ASanjays2402) · [rclone](https://github.com/rclone/rclone/pulls?q=is%3Apr+author%3ASanjays2402) · [Hermes WebUI](https://github.com/nesquena/hermes-webui/pulls?q=is%3Apr+author%3ASanjays2402)
-
-<details>
-<summary>Additional upstream pull requests</summary>
-
-Further work across frameworks, cloud SDKs, databases, and UI tooling:
-
-| Project | Proposed fix | Pull request |
-| :--- | :--- | :--- |
-| **React Compiler** | Preserve the caller's input array in `DisjointSet.union()`. | [#37559](https://github.com/react/react/pull/37559) |
-| **Google Cloud Python** | Close responses before retrying to avoid exhausting the connection pool. | [#18328](https://github.com/googleapis/google-cloud-python/pull/18328) |
-| **AWS CLI** | Report a missing Session Manager plugin before starting a session, preventing a misleading permissions error. | [#10626](https://github.com/aws/aws-cli/pull/10626) |
-| **Prisma ORM** | Execute column-default changes that the migration idempotency check incorrectly skipped. | [#30278](https://github.com/prisma/orm/pull/30278) |
-
-- [facebook/hermes#2181](https://github.com/facebook/hermes/pull/2181) — `Date` was wrong for time zones whose standard offset changed over history (cached modern offset + historical DST)
-- [pytorch/ao#4878](https://github.com/pytorch/ao/pull/4878) — PT2E Quick Start example now runs as documented
-- [facebook/docusaurus#12430](https://github.com/facebook/docusaurus/pull/12430) — broken-anchor checker recognizes arbitrary HTML anchors
-- [aws/aws-sdk-pandas#3475](https://github.com/aws/aws-sdk-pandas/pull/3475) — `emr.create_cluster` accepts bootstrap action arguments
-- [aws/aws-sam-cli#9267](https://github.com/aws/aws-sam-cli/pull/9267) — `--role-arn` service role now flows to the companion stack
-- [aws/aws-lambda-builders#920](https://github.com/aws/aws-lambda-builders/pull/920) — PEP 517-only projects fall back to `pyproject.toml` metadata
-- [firebase/extensions#3169](https://github.com/firebase/extensions/pull/3169) — storage-resize-images rejects bogus `IMAGE_TYPE` values at startup instead of writing broken files
-- [microsoft/fluentui#36725](https://github.com/microsoft/fluentui/pull/36725) — WeeklyDayPicker shows the correct week number in collapsed view
-- [microsoft/vscode-json-languageservice#366](https://github.com/microsoft/vscode-json-languageservice/pull/366) — pre-2019-09 sibling `$ref`s resolve against the referencing document's base URI
-- [microsoft/semantic-kernel#14448](https://github.com/microsoft/semantic-kernel/pull/14448) — `build_model_schema` keeps pydantic constraint objects out of field descriptions
-- [prisma/orm#30277](https://github.com/prisma/orm/pull/30277) — clearer PSL parser diagnostic for `@@index([createdAt(sort: Desc)])`
-- [atlassian-labs/connect-security-req-tester#99](https://github.com/atlassian-labs/connect-security-req-tester/pull/99) / [#100](https://github.com/atlassian-labs/connect-security-req-tester/pull/100) — referrer policy via `<meta>` tag; query strings preserved in module URLs
-- [atlassian-labs/json-schema-viewer#52](https://github.com/atlassian-labs/json-schema-viewer/pull/52) — stop silently rewriting external `$ref` links from http to https
-
-</details>
 
 ## Open-source projects I build
 
