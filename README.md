@@ -1,47 +1,26 @@
-![Sanjay Santhanam — full-stack and systems engineer](assets/hero.svg)
+![Sanjay Santhanam — open source contributor and builder](assets/hero.svg)
 
-## Hi, I'm Sanjay
+## Hi, I'm Sanjay — an OSS guy.
 
-I'm a software engineer in Seattle building backend systems, native macOS apps, and developer tools. My projects range from Python workflow engines to community maps and GPU-rendered desktop experiences.
+I build tools in public and contribute fixes upstream. Open source is where I turn curiosity into code: tracking down subtle bugs, making failures reproducible, and improving the tools developers rely on.
 
-I enjoy the work behind the interface: making interrupted jobs recover, tracking down resource leaks, and turning subtle bugs into reproducible fixes.
+Based in Seattle, I work across language tooling, cloud SDKs, backend systems, and native apps. You'll find both my own projects and contributions to the wider ecosystem here.
 
-**[LinkedIn](https://www.linkedin.com/in/sanjay24/)** · **[Explore my repositories](https://github.com/Sanjays2402?tab=repositories)** · **[Upstream pull requests](https://github.com/pulls?q=is%3Apr+author%3ASanjays2402)**
+**[My upstream contributions](https://github.com/pulls?q=is%3Apr+author%3ASanjays2402)** · **[Merged pull requests](https://github.com/pulls?q=is%3Apr+author%3ASanjays2402+is%3Amerged)** · **[LinkedIn](https://www.linkedin.com/in/sanjay24/)**
 
-## Featured projects
+## Open source, first
 
-| Project | What it does | Built with |
+From reply recovery and resource leaks to parser behavior and developer experience, I contribute across the stack.
+
+| Project | Contribution areas | My work |
 | :--- | :--- | :--- |
-| **[retrace](https://github.com/Sanjays2402/retrace)** | Resumes interrupted Python workflows from SQLite checkpoints, with durable retries and a live execution inspector. Zero runtime dependencies. | Python · asyncio · SQLite |
-| **[ferry](https://github.com/Sanjays2402/ferry)** | Runs background tasks with priorities, retry backoff, scheduling, crash recovery, and a live dashboard. | Python · SQLite · Redis |
-| **[city-friction-map](https://github.com/Sanjays2402/city-friction-map)** | Maps everyday city obstacles so neighbors can report, verify, and share them. Includes trip checks, public city feeds, and CSV/GeoJSON export. | JavaScript · Express · SQLite · Leaflet |
-| **[copilot-usage-tracker](https://github.com/Sanjays2402/copilot-usage-tracker)** | Tracks enterprise Copilot usage and costs, with team attribution, budgets, trends, and per-user drill-downs. | Python · Streamlit · SQLite |
-| **[Tilt](https://github.com/Sanjays2402/Tilt)** | Turns MacBook lid movement into live depth, blur, and frosted-glass effects rendered on the GPU. | Swift · SwiftUI · Metal · ScreenCaptureKit |
+| **[OpenClaw](https://github.com/openclaw/openclaw)** | Reply recovery, secrets auditing, authentication, and Discord voice. | [Pull requests](https://github.com/openclaw/openclaw/pulls?q=is%3Apr+author%3ASanjays2402) |
+| **[Hermes WebUI](https://github.com/nesquena/hermes-webui)** | Streaming, scrolling, Docker setup, and keyboard navigation. | [Pull requests](https://github.com/nesquena/hermes-webui/pulls?q=is%3Apr+author%3ASanjays2402) |
+| **[Pygments](https://github.com/pygments/pygments)** | Lexer and formatter fixes across multiple languages. | [Pull requests](https://github.com/pygments/pygments/pulls?q=is%3Apr+author%3ASanjays2402) |
+| **[Ruff](https://github.com/astral-sh/ruff)** | D418 diagnostics for stub files. | [Pull requests](https://github.com/astral-sh/ruff/pulls?q=is%3Apr+author%3ASanjays2402) |
+| **[rclone](https://github.com/rclone/rclone)** | Goroutine cleanup and WebDAV overwrite behavior. | [Pull requests](https://github.com/rclone/rclone/pulls?q=is%3Apr+author%3ASanjays2402) |
 
-[Try the Retrace recovery playground →](https://sanjays2402.github.io/retrace/)
-
-<details>
-<summary>More projects</summary>
-
-[optune](https://github.com/Sanjays2402/optune) · [snip](https://github.com/Sanjays2402/snip) · [tsk](https://github.com/Sanjays2402/tsk) · [core-stealth](https://github.com/Sanjays2402/core-stealth) · [flight-sim](https://github.com/Sanjays2402/flight-sim)
-
-[ai-particle-simulator](https://github.com/Sanjays2402/ai-particle-simulator) · [slab](https://github.com/Sanjays2402/slab) · [clawmind](https://github.com/Sanjays2402/clawmind) · [triple-tic-tac-toe](https://github.com/Sanjays2402/triple-tic-tac-toe) · [data-forge](https://github.com/Sanjays2402/data-forge)
-
-[ascii-webcam](https://github.com/Sanjays2402/ascii-webcam) · [devdash](https://github.com/Sanjays2402/devdash) · [memory-matrix](https://github.com/Sanjays2402/memory-matrix) · [2048-game](https://github.com/Sanjays2402/2048-game) · [snippet-dev](https://github.com/Sanjays2402/snippet-dev)
-
-[gitsight](https://github.com/Sanjays2402/gitsight) · [clawreview](https://github.com/Sanjays2402/clawreview) · [context-clipboard](https://github.com/Sanjays2402/context-clipboard) · [signalclaw](https://github.com/Sanjays2402/signalclaw) · [clawhum](https://github.com/Sanjays2402/clawhum)
-
-[adherence-ml](https://github.com/Sanjays2402/adherence-ml) · [codeclone](https://github.com/Sanjays2402/codeclone) · [CakePond](https://github.com/Sanjays2402/CakePond) · [sunsprout](https://github.com/Sanjays2402/sunsprout) · [gta-vibes](https://github.com/Sanjays2402/gta-vibes)
-
-[pixel-forge](https://github.com/Sanjays2402/pixel-forge) · [url-shortener](https://github.com/Sanjays2402/url-shortener) · [secure-notes-app](https://github.com/Sanjays2402/secure-notes-app) · [realtime-log-monitor](https://github.com/Sanjays2402/realtime-log-monitor) · [personal-file-backup](https://github.com/Sanjays2402/personal-file-backup)
-
-</details>
-
-## Open source
-
-I contribute across language tooling, cloud SDKs, UI frameworks, and developer infrastructure. My contributions include work on **[OpenClaw](https://github.com/openclaw/openclaw)**, **[Hermes WebUI](https://github.com/nesquena/hermes-webui)**, **[Pygments](https://github.com/pygments/pygments)**, **[Ruff](https://github.com/astral-sh/ruff)**, and **[rclone](https://github.com/rclone/rclone)**.
-
-### Selected pull requests
+### A closer look at my upstream work
 
 These pull requests show how I approach a bug: reproduce the failure, trace the cause, and add a focused fix with regression coverage.
 
@@ -72,6 +51,35 @@ These pull requests show how I approach a bug: reproduce the failure, trace the 
 </details>
 
 [Browse all contributions](https://github.com/pulls?q=is%3Apr+author%3ASanjays2402) · [View merged pull requests](https://github.com/pulls?q=is%3Apr+author%3ASanjays2402+is%3Amerged)
+
+## Open-source projects I build
+
+| Project | What it does | Built with |
+| :--- | :--- | :--- |
+| **[retrace](https://github.com/Sanjays2402/retrace)** | Resumes interrupted Python workflows from SQLite checkpoints, with durable retries and a live execution inspector. Zero runtime dependencies. | Python · asyncio · SQLite |
+| **[ferry](https://github.com/Sanjays2402/ferry)** | Runs background tasks with priorities, retry backoff, scheduling, crash recovery, and a live dashboard. | Python · SQLite · Redis |
+| **[city-friction-map](https://github.com/Sanjays2402/city-friction-map)** | Maps everyday city obstacles so neighbors can report, verify, and share them. Includes trip checks, public city feeds, and CSV/GeoJSON export. | JavaScript · Express · SQLite · Leaflet |
+| **[copilot-usage-tracker](https://github.com/Sanjays2402/copilot-usage-tracker)** | Tracks enterprise Copilot usage and costs, with team attribution, budgets, trends, and per-user drill-downs. | Python · Streamlit · SQLite |
+| **[Tilt](https://github.com/Sanjays2402/Tilt)** | Turns MacBook lid movement into live depth, blur, and frosted-glass effects rendered on the GPU. | Swift · SwiftUI · Metal · ScreenCaptureKit |
+
+[Try the Retrace recovery playground →](https://sanjays2402.github.io/retrace/)
+
+<details>
+<summary>More projects</summary>
+
+[optune](https://github.com/Sanjays2402/optune) · [snip](https://github.com/Sanjays2402/snip) · [tsk](https://github.com/Sanjays2402/tsk) · [core-stealth](https://github.com/Sanjays2402/core-stealth) · [flight-sim](https://github.com/Sanjays2402/flight-sim)
+
+[ai-particle-simulator](https://github.com/Sanjays2402/ai-particle-simulator) · [slab](https://github.com/Sanjays2402/slab) · [clawmind](https://github.com/Sanjays2402/clawmind) · [triple-tic-tac-toe](https://github.com/Sanjays2402/triple-tic-tac-toe) · [data-forge](https://github.com/Sanjays2402/data-forge)
+
+[ascii-webcam](https://github.com/Sanjays2402/ascii-webcam) · [devdash](https://github.com/Sanjays2402/devdash) · [memory-matrix](https://github.com/Sanjays2402/memory-matrix) · [2048-game](https://github.com/Sanjays2402/2048-game) · [snippet-dev](https://github.com/Sanjays2402/snippet-dev)
+
+[gitsight](https://github.com/Sanjays2402/gitsight) · [clawreview](https://github.com/Sanjays2402/clawreview) · [context-clipboard](https://github.com/Sanjays2402/context-clipboard) · [signalclaw](https://github.com/Sanjays2402/signalclaw) · [clawhum](https://github.com/Sanjays2402/clawhum)
+
+[adherence-ml](https://github.com/Sanjays2402/adherence-ml) · [codeclone](https://github.com/Sanjays2402/codeclone) · [CakePond](https://github.com/Sanjays2402/CakePond) · [sunsprout](https://github.com/Sanjays2402/sunsprout) · [gta-vibes](https://github.com/Sanjays2402/gta-vibes)
+
+[pixel-forge](https://github.com/Sanjays2402/pixel-forge) · [url-shortener](https://github.com/Sanjays2402/url-shortener) · [secure-notes-app](https://github.com/Sanjays2402/secure-notes-app) · [realtime-log-monitor](https://github.com/Sanjays2402/realtime-log-monitor) · [personal-file-backup](https://github.com/Sanjays2402/personal-file-backup)
+
+</details>
 
 ## Tools I work with
 
