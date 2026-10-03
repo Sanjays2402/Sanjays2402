@@ -2,7 +2,7 @@
 
 ## Hi, I'm Sanjay
 
-I'm a software engineer in Seattle working on backend systems, native apps, and developer tools. I contribute upstream fixes across language tooling, developer infrastructure, and web applications.
+I'm a software engineer working on backend systems, native apps, and developer tools. I contribute upstream fixes across language tooling, developer infrastructure, and web applications.
 
 **[Merged pull requests](https://github.com/pulls?q=is%3Apr+author%3ASanjays2402+is%3Amerged)** · **[LinkedIn](https://www.linkedin.com/in/sanjay24/)**
 
