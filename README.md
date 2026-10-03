@@ -8,17 +8,7 @@ I'm a software engineer in Seattle working on backend systems, native apps, and 
 
 ## Open-source contributions
 
-### Selected merged contributions
-
-| Project | Change merged upstream | Pull request |
-| :--- | :--- | :--- |
-| **[OpenClaw](https://github.com/openclaw/openclaw)** | Fixed duplicate Telegram forum-topic replies and missing transcript mirrors. | [#158054](https://github.com/openclaw/openclaw/pull/158054) |
-| **[Pygments](https://github.com/pygments/pygments)** | Fixed JSX highlighting so apostrophes in element text no longer produce error tokens. | [#3214](https://github.com/pygments/pygments/pull/3214) |
-| **[Ruff](https://github.com/astral-sh/ruff)** | Removed false-positive D418 diagnostics for docstrings on overloaded functions in stub files. | [#26318](https://github.com/astral-sh/ruff/pull/26318) |
-| **[rclone](https://github.com/rclone/rclone)** | Stopped remote-control jobs that transfer no files from leaking stats goroutines. | [#9568](https://github.com/rclone/rclone/pull/9568) |
-| **[Hermes WebUI](https://github.com/nesquena/hermes-webui)** | Fixed message submission on touch devices with external keyboards. | [#3130](https://github.com/nesquena/hermes-webui/pull/3130) |
-
-**More of my work in these projects:** [OpenClaw](https://github.com/openclaw/openclaw/pulls?q=is%3Apr+author%3ASanjays2402) · [Pygments](https://github.com/pygments/pygments/pulls?q=is%3Apr+author%3ASanjays2402) · [Ruff](https://github.com/astral-sh/ruff/pulls?q=is%3Apr+author%3ASanjays2402) · [rclone](https://github.com/rclone/rclone/pulls?q=is%3Apr+author%3ASanjays2402) · [Hermes WebUI](https://github.com/nesquena/hermes-webui/pulls?q=is%3Apr+author%3ASanjays2402)
+**My contributions:** [OpenClaw](https://github.com/openclaw/openclaw/pulls?q=is%3Apr+author%3ASanjays2402) · [Pygments](https://github.com/pygments/pygments/pulls?q=is%3Apr+author%3ASanjays2402) · [Ruff](https://github.com/astral-sh/ruff/pulls?q=is%3Apr+author%3ASanjays2402) · [rclone](https://github.com/rclone/rclone/pulls?q=is%3Apr+author%3ASanjays2402) · [Hermes WebUI](https://github.com/nesquena/hermes-webui/pulls?q=is%3Apr+author%3ASanjays2402)
 
 ## Featured projects
 
