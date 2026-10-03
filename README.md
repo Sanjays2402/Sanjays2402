@@ -18,7 +18,9 @@ I'm a software engineer in Seattle working on backend systems, native apps, and 
 
 Resumes interrupted workflows from SQLite checkpoints, with durable retries and a live execution inspector. Zero runtime dependencies.
 
-`Python` · `asyncio` · `SQLite` · [Recovery playground →](https://sanjays2402.github.io/retrace/)
+`Python` · `asyncio` · `SQLite`
+
+[Try the Retrace recovery playground →](https://sanjays2402.github.io/retrace/)
 
 #### [ferry](https://github.com/Sanjays2402/ferry) — Background tasks with recovery built in
 
@@ -70,11 +72,15 @@ Merge, sign, redact, OCR, and compare PDFs, with watched-folder automation and o
 
 `Rust` · `Desktop` · `On-device AI`
 
+[Explore Slab's PDF tools →](https://sanjays2402.github.io/slab/) · [Download Slab →](https://github.com/Sanjays2402/slab/releases/latest)
+
 #### [Context Clipboard](https://github.com/Sanjays2402/context-clipboard) — A clipboard that remembers the source
 
 Saves copied text and images with their URL, page title, and surrounding context. Includes search, tags, privacy redaction, and encrypted exports.
 
-`TypeScript` · `Browser extension` · [Project site →](https://sanjays2402.github.io/context-clipboard/)
+`TypeScript` · `Browser extension`
+
+[Explore Context Clipboard →](https://sanjays2402.github.io/context-clipboard/)
 
 ### Maps, data & creative experiments
 
@@ -94,7 +100,9 @@ Drop in CSV, TSV, or JSON to filter, sort, chart, and export your data. Supports
 
 A browser flight simulator with mountains, coastlines, clouds, and landable airfields. Built in a single HTML file with no npm or build step.
 
-`JavaScript` · `Three.js` · [Fly in the browser →](https://sanjays2402.github.io/flight-sim/)
+`JavaScript` · `Three.js`
+
+[Try the Flight Simulator →](https://sanjays2402.github.io/flight-sim/)
 
 #### [ASCII Webcam](https://github.com/Sanjays2402/ascii-webcam) — Live video rendered as text
 
@@ -102,18 +110,32 @@ Converts a webcam feed into ASCII art with color and monochrome modes, character
 
 `Browser` · `Real-time graphics`
 
+#### [AI Particle Simulator](https://github.com/Sanjays2402/ai-particle-simulator) — Interactive 3D particle effects
+
+Explore particle presets, visual styles, color themes, and live controls, with GIF and video export. Optional text-to-particle generation connects to an OpenAI-compatible API.
+
+`React` · `Three.js` · `WebGL`
+
+[Try the AI Particle Simulator →](https://sanjays2402.github.io/ai-particle-simulator/)
+
+#### [Memory Matrix](https://github.com/Sanjays2402/memory-matrix) — Pair matching with an arcade twist
+
+Match cards, build score streaks, race the clock, and take on a daily challenge. Choose from themed decks, including real technology logos.
+
+`Browser game` · `Touch controls` · `Daily challenges`
+
+[Play Memory Matrix →](https://sanjays2402.github.io/memory-matrix/)
+
 <details>
 <summary>More projects</summary>
 
-[core-stealth](https://github.com/Sanjays2402/core-stealth) · [ai-particle-simulator](https://github.com/Sanjays2402/ai-particle-simulator) · [clawmind](https://github.com/Sanjays2402/clawmind) · [triple-tic-tac-toe](https://github.com/Sanjays2402/triple-tic-tac-toe) · [devdash](https://github.com/Sanjays2402/devdash)
+[core-stealth](https://github.com/Sanjays2402/core-stealth) · [clawmind](https://github.com/Sanjays2402/clawmind) · [triple-tic-tac-toe](https://github.com/Sanjays2402/triple-tic-tac-toe) · [devdash](https://github.com/Sanjays2402/devdash) · [2048-game](https://github.com/Sanjays2402/2048-game)
 
-[memory-matrix](https://github.com/Sanjays2402/memory-matrix) · [2048-game](https://github.com/Sanjays2402/2048-game) · [snippet-dev](https://github.com/Sanjays2402/snippet-dev) · [clawreview](https://github.com/Sanjays2402/clawreview) · [signalclaw](https://github.com/Sanjays2402/signalclaw)
+[snippet-dev](https://github.com/Sanjays2402/snippet-dev) · [clawreview](https://github.com/Sanjays2402/clawreview) · [signalclaw](https://github.com/Sanjays2402/signalclaw) · [clawhum](https://github.com/Sanjays2402/clawhum) · [adherence-ml](https://github.com/Sanjays2402/adherence-ml)
 
-[clawhum](https://github.com/Sanjays2402/clawhum) · [adherence-ml](https://github.com/Sanjays2402/adherence-ml) · [codeclone](https://github.com/Sanjays2402/codeclone) · [CakePond](https://github.com/Sanjays2402/CakePond) · [sunsprout](https://github.com/Sanjays2402/sunsprout)
+[codeclone](https://github.com/Sanjays2402/codeclone) · [CakePond](https://github.com/Sanjays2402/CakePond) · [sunsprout](https://github.com/Sanjays2402/sunsprout) · [gta-vibes](https://github.com/Sanjays2402/gta-vibes) · [pixel-forge](https://github.com/Sanjays2402/pixel-forge)
 
-[gta-vibes](https://github.com/Sanjays2402/gta-vibes) · [pixel-forge](https://github.com/Sanjays2402/pixel-forge) · [url-shortener](https://github.com/Sanjays2402/url-shortener) · [secure-notes-app](https://github.com/Sanjays2402/secure-notes-app) · [realtime-log-monitor](https://github.com/Sanjays2402/realtime-log-monitor)
-
-[personal-file-backup](https://github.com/Sanjays2402/personal-file-backup)
+[url-shortener](https://github.com/Sanjays2402/url-shortener) · [secure-notes-app](https://github.com/Sanjays2402/secure-notes-app) · [realtime-log-monitor](https://github.com/Sanjays2402/realtime-log-monitor) · [personal-file-backup](https://github.com/Sanjays2402/personal-file-backup)
 
 </details>
 
