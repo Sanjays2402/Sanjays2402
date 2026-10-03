@@ -8,6 +8,12 @@ I'm a software engineer working on backend systems, native apps, and developer t
 
 ## Open-source contributions
 
+**PR contributions across 567 open-source repositories · Accepted or incorporated work in at least 290.**
+
+413 directly merged PRs across 280 repositories, plus work incorporated in 10 more through maintainer PRs, cherry-picks, co-author credit, and adopted tests or fixes—including work on maintainer branches.
+
+[Contribution counts & maintainer acknowledgments →](CONTRIBUTIONS.md) · <sub>Verified October 3, 2026</sub>
+
 **My contributions:** [OpenClaw](https://github.com/openclaw/openclaw/pulls?q=is%3Apr+author%3ASanjays2402) · [Pygments](https://github.com/pygments/pygments/pulls?q=is%3Apr+author%3ASanjays2402) · [Ruff](https://github.com/astral-sh/ruff/pulls?q=is%3Apr+author%3ASanjays2402) · [rclone](https://github.com/rclone/rclone/pulls?q=is%3Apr+author%3ASanjays2402) · [Hermes WebUI](https://github.com/nesquena/hermes-webui/pulls?q=is%3Apr+author%3ASanjays2402)
 
 ## Featured projects
