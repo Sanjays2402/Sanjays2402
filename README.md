@@ -10,7 +10,7 @@ I'm a software engineer working on backend systems, native apps, and developer t
 
 **PR contributions across 567 open-source repositories · Accepted or incorporated work in at least 290.**
 
-413 directly merged PRs across 280 repositories, plus work incorporated in 10 more through maintainer PRs, cherry-picks, co-author credit, and adopted tests or fixes—including work on maintainer branches.
+413 directly merged PRs across 280 repositories.
 
 [Contribution counts & maintainer acknowledgments →](CONTRIBUTIONS.md) · <sub>Verified October 3, 2026</sub>
 
