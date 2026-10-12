@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="60" viewBox="0 0 900 60" role="img" aria-label="Building backend systems, native apps and dev tools. 415+ PRs merged into 282 open-source repos. Shipping Slab: an offline PDF studio in Rust.">
+  <style>
+    @keyframes t0{0%,0.00%{width:0}13.33%,28.33%{width:740px}33.33%,100%{width:0}}
+    #c0{animation:t0 12.0s steps(1,end) infinite;animation-timing-function:steps(55)}
+    @keyframes o0{0%,0.00%{opacity:0}0.01%,33.32%{opacity:1}33.33%,100%{opacity:0}}
+    #g0{animation:o0 12.0s linear infinite}
+    @keyframes t1{0%,33.33%{width:0}46.67%,61.67%{width:621px}66.67%,100%{width:0}}
+    #c1{animation:t1 12.0s steps(1,end) infinite;animation-timing-function:steps(46)}
+    @keyframes o1{0%,33.33%{opacity:0}33.34%,66.66%{opacity:1}66.67%,100%{opacity:0}}
+    #g1{animation:o1 12.0s linear infinite}
+    @keyframes t2{0%,66.67%{width:0}80.00%,95.00%{width:648px}100.00%,100%{width:0}}
+    #c2{animation:t2 12.0s steps(1,end) infinite;animation-timing-function:steps(48)}
+    @keyframes o2{0%,66.67%{opacity:0}66.68%,99.99%{opacity:1}100.00%,100%{opacity:0}}
+    #g2{animation:o2 12.0s linear infinite}
+  </style>
+  <!-- own dark backdrop so the light text reads on GitHub's light theme too -->
+  <rect x=".5" y=".5" width="899" height="59" rx="30" fill="#0d1117" stroke="#30363d"/>
+  <clipPath id="k0"><rect id="c0" x="87" y="10" height="40" width="0"/></clipPath>
+  <g id="g0" opacity="0"><g clip-path="url(#k0)">
+    <text x="87" y="38" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="22" fill="#e6edf3"><tspan fill="#f0b429">$ </tspan>Building backend systems, native apps and dev tools.<tspan fill="#f0b429">▍</tspan></text>
+  </g></g>
+  <clipPath id="k1"><rect id="c1" x="146" y="10" height="40" width="0"/></clipPath>
+  <g id="g1" opacity="0"><g clip-path="url(#k1)">
+    <text x="146" y="38" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="22" fill="#e6edf3"><tspan fill="#f0b429">$ </tspan>415+ PRs merged into 282 open-source repos.<tspan fill="#f0b429">▍</tspan></text>
+  </g></g>
+  <clipPath id="k2"><rect id="c2" x="133" y="10" height="40" width="0"/></clipPath>
+  <g id="g2" opacity="0"><g clip-path="url(#k2)">
+    <text x="133" y="38" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="22" fill="#e6edf3"><tspan fill="#f0b429">$ </tspan>Shipping Slab: an offline PDF studio in Rust.<tspan fill="#f0b429">▍</tspan></text>
+  </g></g>
+</svg>

@@ -1,163 +1,126 @@
-![Sanjay Santhanam — software engineer](assets/hero.svg)
+<div align="center">
 
-## Hi, I'm Sanjay
+<img src="assets/header.svg" width="100%" alt="Sanjay Santhanam" />
 
-I'm a software engineer working on backend systems, native apps, and developer tools. I contribute upstream fixes across language tooling, developer infrastructure, and web applications.
+<img src="assets/typing.svg" alt="Building backend systems, native apps and dev tools. 400+ PRs merged into open-source repos. Shipping Slab, an offline PDF studio in Rust." />
 
-**[Merged pull requests](https://github.com/pulls?q=is%3Apr+author%3ASanjays2402+is%3Amerged)** · **[LinkedIn](https://www.linkedin.com/in/sanjay24/)**
+<br /><br />
 
-## Open-source contributions
+<a href="https://www.linkedin.com/in/sanjay24/"><img src="https://img.shields.io/badge/LinkedIn-0d1117?style=for-the-badge&logo=linkedin&logoColor=f0b429" alt="LinkedIn" /></a>
+<a href="https://sanjays2402.github.io/"><img src="https://img.shields.io/badge/Portfolio-0d1117?style=for-the-badge&logo=githubpages&logoColor=f0b429" alt="Portfolio" /></a>
+<a href="CONTRIBUTIONS.md"><img src="https://img.shields.io/badge/Contribution_audit-0d1117?style=for-the-badge&logo=github&logoColor=f0b429" alt="Contribution audit" /></a>
+<br />
+<a href="https://github.com/pulls?q=is%3Apr+author%3ASanjays2402+is%3Amerged+-user%3ASanjays2402"><img src="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3ASanjays2402%20is%3Amerged%20-user%3ASanjays2402&label=merged%20upstream&style=for-the-badge&color=f0b429&labelColor=0d1117" alt="PRs merged upstream" /></a>
+<img src="https://api.visitorbadge.io/api/visitors?path=Sanjays2402&label=profile%20views&labelColor=%230d1117&countColor=%23f0b429&style=for-the-badge" alt="Profile views" />
 
-**PR contributions across 567 open-source repositories · Accepted or incorporated work in at least 290.**
+</div>
 
-413 directly merged PRs across 280 repositories.
+<br />
 
-[Contribution counts & maintainer acknowledgments →](CONTRIBUTIONS.md) · <sub>Verified October 3, 2026</sub>
+Hey, I'm Sanjay, a software engineer working on backend systems, native apps and developer tools. Most of what I build is local-first: durable Python workflows on SQLite, a Rust PDF studio, macOS utilities in Swift, and a long tail of browser tools. I also spend a lot of time sending fixes upstream to language tooling, developer infrastructure and AI agent projects.
 
-**My contributions:** [OpenClaw](https://github.com/openclaw/openclaw/pulls?q=is%3Apr+author%3ASanjays2402) · [Pygments](https://github.com/pygments/pygments/pulls?q=is%3Apr+author%3ASanjays2402) · [Ruff](https://github.com/astral-sh/ruff/pulls?q=is%3Apr+author%3ASanjays2402) · [rclone](https://github.com/rclone/rclone/pulls?q=is%3Apr+author%3ASanjays2402) · [Hermes WebUI](https://github.com/nesquena/hermes-webui/pulls?q=is%3Apr+author%3ASanjays2402)
+The quickest way to reach me is [LinkedIn](https://www.linkedin.com/in/sanjay24/).
 
-## Featured projects
+## Slab
 
-### Systems & developer tools
+<div align="center">
 
-#### [retrace](https://github.com/Sanjays2402/retrace) — Crash-resumable Python workflows
+<a href="https://github.com/Sanjays2402/slab"><img src="https://raw.githubusercontent.com/Sanjays2402/slab/main/docs/landing/demos/hero-animated.svg" width="85%" alt="Slab desktop app" /></a>
 
-Resumes interrupted workflows from SQLite checkpoints, with durable retries and a live execution inspector. Zero runtime dependencies.
+<sub>Slab on the desktop. <a href="https://sanjays2402.github.io/slab/">Website</a> · <a href="https://github.com/Sanjays2402/slab/releases/latest">Download</a></sub>
 
-`Python` · `asyncio` · `SQLite`
+</div>
 
-[Try the Retrace recovery playground →](https://sanjays2402.github.io/retrace/)
+[Slab](https://github.com/Sanjays2402/slab) is an offline PDF studio for macOS, Windows and Linux. It merges, splits, signs, redacts, OCRs and compares PDFs, with watched-folder automation and on-device AI for search, summaries and chat with citations. Everything runs locally.
 
-#### [ferry](https://github.com/Sanjays2402/ferry) — Background tasks with recovery built in
+<div align="center">
 
-A lightweight task queue with priorities, retry backoff, delayed and cron scheduling, crash recovery, and a live dashboard.
+<a href="https://github.com/Sanjays2402/slab/releases/latest"><img src="https://img.shields.io/github/v/release/Sanjays2402/slab?style=for-the-badge&color=f0b429&labelColor=0d1117&label=release" alt="Latest release" /></a>
+<a href="https://github.com/Sanjays2402/slab/releases"><img src="https://img.shields.io/github/downloads/Sanjays2402/slab/total?style=for-the-badge&color=f0b429&labelColor=0d1117&label=downloads" alt="Downloads" /></a>
+<a href="https://github.com/Sanjays2402/slab/stargazers"><img src="https://img.shields.io/github/stars/Sanjays2402/slab?style=for-the-badge&color=f0b429&labelColor=0d1117&label=stars" alt="GitHub stars" /></a>
+<img src="https://img.shields.io/badge/Rust-0d1117?style=for-the-badge&logo=rust&logoColor=f0b429" alt="Rust" />
 
-`Python` · `SQLite` · `Redis`
+</div>
 
-#### [GitSight](https://github.com/Sanjays2402/gitsight) — Git history inside VS Code
+## More things I've built
 
-Explore commit graphs, inline blame, file history, worktrees, and pull requests, with tools for comparing refs, rebasing, and resolving merge conflicts.
+<table>
+<tr>
+<td width="50%" valign="top">
+<a href="https://github.com/Sanjays2402/gitsight"><img src="https://raw.githubusercontent.com/Sanjays2402/gitsight/main/screenshots/commit-graph-hero.png" alt="GitSight commit graph" /></a>
+<b><a href="https://github.com/Sanjays2402/gitsight">GitSight</a></b>: Git history inside VS Code. Commit graph, blame heatmap, interactive rebase, worktrees and PRs.<br />
+<sub><code>TypeScript</code> · <code>VS Code</code></sub>
+</td>
+<td width="50%" valign="top">
+<a href="https://github.com/Sanjays2402/Tilt"><img src="https://raw.githubusercontent.com/Sanjays2402/Tilt/main/assets/readme-hero.png" alt="Tilt on a MacBook" /></a>
+<b><a href="https://github.com/Sanjays2402/Tilt">Tilt</a></b>: turns MacBook lid movement into live perspective, blur and dimming, rendered on the GPU.<br />
+<sub><code>Swift</code> · <code>Metal</code> · <code>ScreenCaptureKit</code></sub>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://github.com/Sanjays2402/context-clipboard"><img src="https://raw.githubusercontent.com/Sanjays2402/context-clipboard/main/docs/hero.png" alt="Context Clipboard" /></a>
+<b><a href="https://github.com/Sanjays2402/context-clipboard">Context Clipboard</a></b>: a clipboard that remembers the source URL, page title and surrounding paragraph. Fully local.<br />
+<sub><code>TypeScript</code> · <code>Browser extension</code> · <a href="https://sanjays2402.github.io/context-clipboard/">Explore →</a></sub>
+</td>
+<td width="50%" valign="top">
+<a href="https://github.com/Sanjays2402/retrace"><img src="https://raw.githubusercontent.com/Sanjays2402/retrace/main/docs/assets/feature-recovered.png" alt="Retrace recovering a workflow" /></a>
+<b><a href="https://github.com/Sanjays2402/retrace">retrace</a></b>: crash-resumable Python workflows on SQLite checkpoints, with durable retries and an inspector. Zero dependencies.<br />
+<sub><code>Python</code> · <code>asyncio</code> · <a href="https://sanjays2402.github.io/retrace/">Playground →</a></sub>
+</td>
+</tr>
+</table>
 
-`VS Code` · `Git`
+Also: [ferry](https://github.com/Sanjays2402/ferry) (task queue with crash recovery) · [Optune](https://github.com/Sanjays2402/optune) (native Logitech controls for macOS) · [tsk](https://github.com/Sanjays2402/tsk) (Markdown-backed terminal todos in Go) · [Snip](https://github.com/Sanjays2402/snip) (link analytics API) · [copilot-usage-tracker](https://github.com/Sanjays2402/copilot-usage-tracker) (Copilot spend and attribution) · [city-friction-map](https://github.com/Sanjays2402/city-friction-map) (community map of city obstacles) · [raft](https://github.com/Sanjays2402/raft) (Raft consensus core in pure Python)
 
-#### [Snip](https://github.com/Sanjays2402/snip) — URL shortening with analytics
+## Open source
 
-A link-management API with custom slugs, team workspaces, click analytics, QR codes, and signed webhooks.
+I've had more than 410 pull requests merged across 280+ open-source repositories, mostly Python tooling, developer infrastructure and AI agent frameworks. These are the projects I work in the most:
 
-`TypeScript` · `Express` · `PostgreSQL` · `Redis` · `ClickHouse`
+<div align="center">
 
-#### [tsk](https://github.com/Sanjays2402/tsk) — Tasks in a plain Markdown file
+<a href="https://github.com/openclaw/openclaw/pulls?q=is%3Apr+author%3ASanjays2402+is%3Amerged"><img src="profile/pin-openclaw.svg" width="49%" alt="openclaw/openclaw" /></a>
+<a href="https://github.com/pygments/pygments/pulls?q=is%3Apr+author%3ASanjays2402+is%3Amerged"><img src="profile/pin-pygments.svg" width="49%" alt="pygments/pygments" /></a>
+<a href="https://github.com/nesquena/hermes-webui/pulls?q=is%3Apr+author%3ASanjays2402+is%3Amerged"><img src="profile/pin-hermes-webui.svg" width="49%" alt="nesquena/hermes-webui" /></a>
+<a href="https://github.com/fsspec/filesystem_spec/pulls?q=is%3Apr+author%3ASanjays2402+is%3Amerged"><img src="profile/pin-filesystem_spec.svg" width="49%" alt="fsspec/filesystem_spec" /></a>
+<a href="https://github.com/apache/libcloud/pulls?q=is%3Apr+author%3ASanjays2402+is%3Amerged"><img src="profile/pin-libcloud.svg" width="49%" alt="apache/libcloud" /></a>
+<a href="https://github.com/rclone/rclone/pulls?q=is%3Apr+author%3ASanjays2402+is%3Amerged"><img src="profile/pin-rclone.svg" width="49%" alt="rclone/rclone" /></a>
 
-A keyboard-first todo manager with a terminal UI, fuzzy search, and a scriptable CLI. Tasks stay readable and editable in your own editor.
+</div>
 
-`Go` · `TUI` · `CLI` · `Markdown`
+I've also had PRs merged in [OpenHands](https://github.com/OpenHands/OpenHands/pulls?q=is%3Apr+author%3ASanjays2402+is%3Amerged), [uv](https://github.com/astral-sh/uv/pulls?q=is%3Apr+author%3ASanjays2402+is%3Amerged), [Ruff](https://github.com/astral-sh/ruff/pulls?q=is%3Apr+author%3ASanjays2402+is%3Amerged), [OpenBB](https://github.com/openbq-org/OpenBB/pulls?q=is%3Apr+author%3ASanjays2402+is%3Amerged), [Helix](https://github.com/helix-editor/helix/pulls?q=is%3Apr+author%3ASanjays2402+is%3Amerged), [LightRAG](https://github.com/HKUDS/LightRAG/pulls?q=is%3Apr+author%3ASanjays2402+is%3Amerged), [DeepTutor](https://github.com/HKUDS/DeepTutor/pulls?q=is%3Apr+author%3ASanjays2402+is%3Amerged), [1Panel](https://github.com/1Panel-dev/1Panel/pulls?q=is%3Apr+author%3ASanjays2402+is%3Amerged), [CyberChef](https://github.com/gchq/CyberChef/pulls?q=is%3Apr+author%3ASanjays2402+is%3Amerged), [Glances](https://github.com/nicolargo/glances/pulls?q=is%3Apr+author%3ASanjays2402+is%3Amerged), [Mantine](https://github.com/mantinedev/mantine/pulls?q=is%3Apr+author%3ASanjays2402+is%3Amerged), [openai-python](https://github.com/openai/openai-python/pulls?q=is%3Apr+author%3ASanjays2402+is%3Amerged), [tqdm](https://github.com/tqdm/tqdm/pulls?q=is%3Apr+author%3ASanjays2402+is%3Amerged), [Dash](https://github.com/plotly/dash/pulls?q=is%3Apr+author%3ASanjays2402+is%3Amerged), [Tornado](https://github.com/tornadoweb/tornado/pulls?q=is%3Apr+author%3ASanjays2402+is%3Amerged), [Apprise](https://github.com/caronc/apprise/pulls?q=is%3Apr+author%3ASanjays2402+is%3Amerged), [ranger](https://github.com/ranger/ranger/pulls?q=is%3Apr+author%3ASanjays2402+is%3Amerged), [GoReleaser](https://github.com/goreleaser/goreleaser/pulls?q=is%3Apr+author%3ASanjays2402+is%3Amerged), [beets](https://github.com/beetbox/beets/pulls?q=is%3Apr+author%3ASanjays2402+is%3Amerged) and [Prowler](https://github.com/prowler-cloud/prowler/pulls?q=is%3Apr+author%3ASanjays2402+is%3Amerged).
 
-#### [copilot-usage-tracker](https://github.com/Sanjays2402/copilot-usage-tracker) — Visibility into enterprise Copilot spending
+The full list, the counting method and maintainer acknowledgments for incorporated work are in the [contribution audit](CONTRIBUTIONS.md).
 
-Tracks usage and costs with team attribution, budgets, trends, unusual-activity alerts, and per-user drill-downs.
+## Stack
 
-`Python` · `Streamlit` · `SQLite`
+<div align="center">
 
-### Native apps & browser tools
+<img src="assets/skills.svg" width="100%" alt="Python, TypeScript, Go, Swift, Rust, Java, PostgreSQL, SQLite, Redis, ClickHouse, SwiftUI, React, Three.js, Docker, GitHub Actions, Linux, macOS" />
 
-#### [Optune](https://github.com/Sanjays2402/optune) — Native controls for Logitech devices
+</div>
 
-A macOS menu bar app and CLI for Logitech MX mice and keyboards: battery monitoring, DPI, button remapping, host switching, and per-app profiles.
+## Activity
 
-`Swift` · `macOS` · `HID++`
+<div align="center">
 
-#### [Tilt](https://github.com/Sanjays2402/Tilt) — Depth and frosted glass for your MacBook
+<img src="profile/contrib-3d.svg" width="100%" alt="3D contribution graph for the last year" />
 
-Turns lid movement into live perspective, blur, and dimming effects rendered on the GPU, with idle glass, battery saving, and a preview hotkey.
+<img src="profile/stats.svg" width="49%" alt="GitHub stats" />
+<img src="profile/streak.svg" width="49%" alt="Contribution streak" />
 
-`Swift` · `SwiftUI` · `Metal` · `ScreenCaptureKit`
+</div>
 
-#### [Slab](https://github.com/Sanjays2402/slab) — An offline PDF studio
+## Try it in your browser
 
-Merge, sign, redact, OCR, and compare PDFs, with watched-folder automation and on-device AI for search, summaries, and chat with citations.
+- [Slab's PDF tools](https://sanjays2402.github.io/slab/): see what the desktop app does before downloading it
+- [Retrace recovery playground](https://sanjays2402.github.io/retrace/): kill a workflow mid-run and watch it resume
+- [Flight Simulator](https://sanjays2402.github.io/flight-sim/): a procedural world in a single HTML file
+- [AI Particle Simulator](https://sanjays2402.github.io/ai-particle-simulator/): 3D particle presets with GIF and video export
+- [Memory Matrix](https://sanjays2402.github.io/memory-matrix/): pair matching with streaks and a daily challenge
 
-`Rust` · `Desktop` · `On-device AI`
+<div align="center">
 
-[Explore Slab's PDF tools →](https://sanjays2402.github.io/slab/) · [Download Slab →](https://github.com/Sanjays2402/slab/releases/latest)
+<img src="assets/footer.svg" width="100%" alt="" />
 
-#### [Context Clipboard](https://github.com/Sanjays2402/context-clipboard) — A clipboard that remembers the source
-
-Saves copied text and images with their URL, page title, and surrounding context. Includes search, tags, privacy redaction, and encrypted exports.
-
-`TypeScript` · `Browser extension`
-
-[Explore Context Clipboard →](https://sanjays2402.github.io/context-clipboard/)
-
-### Maps, data & creative experiments
-
-#### [city-friction-map](https://github.com/Sanjays2402/city-friction-map) — Community reports for everyday city obstacles
-
-Report, verify, and share local obstacles on an interactive map, with trip checks, public city feeds, and CSV/GeoJSON export.
-
-`JavaScript` · `Express` · `SQLite` · `Leaflet`
-
-#### [Data Forge](https://github.com/Sanjays2402/data-forge) — Explore a dataset in your browser
-
-Drop in CSV, TSV, or JSON to filter, sort, chart, and export your data. Supports pasted datasets and runs without a build step.
-
-`Browser` · `Canvas` · `Zero dependencies`
-
-#### [Flight Simulator](https://github.com/Sanjays2402/flight-sim) — A procedural world you can fly through
-
-A browser flight simulator with mountains, coastlines, clouds, and landable airfields. Built in a single HTML file with no npm or build step.
-
-`JavaScript` · `Three.js`
-
-[Try the Flight Simulator →](https://sanjays2402.github.io/flight-sim/)
-
-#### [ASCII Webcam](https://github.com/Sanjays2402/ascii-webcam) — Live video rendered as text
-
-Converts a webcam feed into ASCII art with color and monochrome modes, character ramps, and adjustable resolution. Processing stays in the browser.
-
-`Browser` · `Real-time graphics`
-
-#### [AI Particle Simulator](https://github.com/Sanjays2402/ai-particle-simulator) — Interactive 3D particle effects
-
-Explore particle presets, visual styles, color themes, and live controls, with GIF and video export. Optional text-to-particle generation connects to an OpenAI-compatible API.
-
-`React` · `Three.js` · `WebGL`
-
-[Try the AI Particle Simulator →](https://sanjays2402.github.io/ai-particle-simulator/)
-
-#### [Memory Matrix](https://github.com/Sanjays2402/memory-matrix) — Pair matching with an arcade twist
-
-Match cards, build score streaks, race the clock, and take on a daily challenge. Choose from themed decks, including real technology logos.
-
-`Browser game` · `Touch controls` · `Daily challenges`
-
-[Play Memory Matrix →](https://sanjays2402.github.io/memory-matrix/)
-
-<details>
-<summary>More projects</summary>
-
-[core-stealth](https://github.com/Sanjays2402/core-stealth) · [clawmind](https://github.com/Sanjays2402/clawmind) · [triple-tic-tac-toe](https://github.com/Sanjays2402/triple-tic-tac-toe) · [devdash](https://github.com/Sanjays2402/devdash) · [2048-game](https://github.com/Sanjays2402/2048-game)
-
-[snippet-dev](https://github.com/Sanjays2402/snippet-dev) · [clawreview](https://github.com/Sanjays2402/clawreview) · [signalclaw](https://github.com/Sanjays2402/signalclaw) · [clawhum](https://github.com/Sanjays2402/clawhum) · [adherence-ml](https://github.com/Sanjays2402/adherence-ml)
-
-[codeclone](https://github.com/Sanjays2402/codeclone) · [CakePond](https://github.com/Sanjays2402/CakePond) · [sunsprout](https://github.com/Sanjays2402/sunsprout) · [gta-vibes](https://github.com/Sanjays2402/gta-vibes) · [pixel-forge](https://github.com/Sanjays2402/pixel-forge)
-
-[url-shortener](https://github.com/Sanjays2402/url-shortener) · [secure-notes-app](https://github.com/Sanjays2402/secure-notes-app) · [realtime-log-monitor](https://github.com/Sanjays2402/realtime-log-monitor) · [personal-file-backup](https://github.com/Sanjays2402/personal-file-backup)
-
-</details>
-
-## Tools I work with
-
-<p>
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" alt="Go" />
-  <img src="https://img.shields.io/badge/Swift-F05138?style=flat-square&logo=swift&logoColor=white" alt="Swift" />
-  <img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white" alt="Rust" />
-  <img src="https://img.shields.io/badge/Postgres-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="Postgres" />
-  <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" alt="Redis" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
-</p>
-
-- **Backend & systems:** task queues, durable workflows, APIs, and data storage.
-- **Native & web:** macOS apps, browser interfaces, and WebGL.
-- **Developer tooling:** CLI/TUI tools, ML tooling, and debugging.
+</div>
