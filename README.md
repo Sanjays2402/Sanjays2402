@@ -11,7 +11,6 @@
 <a href="CONTRIBUTIONS.md"><img src="https://img.shields.io/badge/Contribution_audit-0d1117?style=for-the-badge&logo=github&logoColor=f0b429" alt="Contribution audit" /></a>
 <br />
 <a href="https://github.com/pulls?q=is%3Apr+author%3ASanjays2402+is%3Amerged+-user%3ASanjays2402"><img src="https://img.shields.io/github/issues-search?query=is%3Apr%20author%3ASanjays2402%20is%3Amerged%20-user%3ASanjays2402&label=merged%20upstream&style=for-the-badge&color=f0b429&labelColor=0d1117" alt="PRs merged upstream" /></a>
-<img src="https://api.visitorbadge.io/api/visitors?path=Sanjays2402&label=profile%20views&labelColor=%230d1117&countColor=%23f0b429&style=for-the-badge" alt="Profile views" />
 
 </div>
 
@@ -69,9 +68,24 @@ The quickest way to reach me is [LinkedIn](https://www.linkedin.com/in/sanjay24/
 <sub><code>Python</code> · <code>asyncio</code> · <a href="https://sanjays2402.github.io/retrace/">Playground →</a></sub>
 </td>
 </tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://github.com/Sanjays2402/optune"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Sanjays2402/optune/main/docs/screenshots/hero-dark.png" />
+  <img src="https://raw.githubusercontent.com/Sanjays2402/optune/main/docs/screenshots/hero-light.png" alt="Optune on macOS" />
+</picture></a>
+<b><a href="https://github.com/Sanjays2402/optune">Optune</a></b>: native controls for Logitech MX mice and keyboards on macOS. Battery, DPI, button remapping and per-app profiles, without Options+.<br />
+<sub><code>Swift 6</code> · <code>SwiftUI</code> · <code>HID++</code> · <a href="https://github.com/Sanjays2402/homebrew-optune">Homebrew tap →</a></sub>
+</td>
+<td width="50%" valign="top">
+<a href="https://github.com/Sanjays2402/city-friction-map"><img src="https://raw.githubusercontent.com/Sanjays2402/city-friction-map/main/docs/screenshots/desktop.png" alt="city-friction-map" /></a>
+<b><a href="https://github.com/Sanjays2402/city-friction-map">city-friction-map</a></b>: a community map of everyday city obstacles. Report, verify and share local heads-ups, with CSV and GeoJSON export.<br />
+<sub><code>JavaScript</code> · <code>Express</code> · <code>SQLite</code> · <code>Leaflet</code></sub>
+</td>
+</tr>
 </table>
 
-Also: [ferry](https://github.com/Sanjays2402/ferry) (task queue with crash recovery) · [Optune](https://github.com/Sanjays2402/optune) (native Logitech controls for macOS) · [tsk](https://github.com/Sanjays2402/tsk) (Markdown-backed terminal todos in Go) · [Snip](https://github.com/Sanjays2402/snip) (link analytics API) · [copilot-usage-tracker](https://github.com/Sanjays2402/copilot-usage-tracker) (Copilot spend and attribution) · [city-friction-map](https://github.com/Sanjays2402/city-friction-map) (community map of city obstacles) · [raft](https://github.com/Sanjays2402/raft) (Raft consensus core in pure Python)
+Also: [ferry](https://github.com/Sanjays2402/ferry) (task queue with crash recovery) · [tsk](https://github.com/Sanjays2402/tsk) (Markdown-backed terminal todos in Go) · [Snip](https://github.com/Sanjays2402/snip) (link analytics API) · [copilot-usage-tracker](https://github.com/Sanjays2402/copilot-usage-tracker) (Copilot spend and attribution) · [raft](https://github.com/Sanjays2402/raft) (Raft consensus core in pure Python)
 
 ## Open source
 
