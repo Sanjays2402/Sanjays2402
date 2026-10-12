@@ -46,40 +46,40 @@ The quickest way to reach me is [LinkedIn](https://www.linkedin.com/in/sanjay24/
 <table>
 <tr>
 <td width="50%" valign="top">
-<a href="https://github.com/Sanjays2402/gitsight"><img src="https://raw.githubusercontent.com/Sanjays2402/gitsight/main/screenshots/commit-graph-hero.png" alt="GitSight commit graph" /></a>
+<a href="https://github.com/Sanjays2402/gitsight"><img src="profile/shots/gitsight.jpg" alt="GitSight commit graph" /></a>
 <b><a href="https://github.com/Sanjays2402/gitsight">GitSight</a></b>: Git history inside VS Code. Commit graph, blame heatmap, interactive rebase, worktrees and PRs.<br />
 <sub><code>TypeScript</code> · <code>VS Code</code></sub>
 </td>
 <td width="50%" valign="top">
-<a href="https://github.com/Sanjays2402/Tilt"><img src="https://raw.githubusercontent.com/Sanjays2402/Tilt/main/assets/readme-hero.png" alt="Tilt on a MacBook" /></a>
-<b><a href="https://github.com/Sanjays2402/Tilt">Tilt</a></b>: turns MacBook lid movement into live perspective, blur and dimming, rendered on the GPU.<br />
+<a href="https://github.com/Sanjays2402/Tilt"><img src="profile/shots/tilt.jpg" alt="Tilt on a MacBook" /></a>
+<b><a href="https://github.com/Sanjays2402/Tilt">Tilt</a></b>: turns MacBook lid movement into live perspective, blur and dimming effects, rendered on the GPU.<br />
 <sub><code>Swift</code> · <code>Metal</code> · <code>ScreenCaptureKit</code></sub>
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<a href="https://github.com/Sanjays2402/context-clipboard"><img src="https://raw.githubusercontent.com/Sanjays2402/context-clipboard/main/docs/hero.png" alt="Context Clipboard" /></a>
-<b><a href="https://github.com/Sanjays2402/context-clipboard">Context Clipboard</a></b>: a clipboard that remembers the source URL, page title and surrounding paragraph. Fully local.<br />
+<a href="https://github.com/Sanjays2402/context-clipboard"><img src="profile/shots/context-clipboard.jpg" alt="Context Clipboard" /></a>
+<b><a href="https://github.com/Sanjays2402/context-clipboard">Context Clipboard</a></b>: a clipboard that remembers where you copied from: source URL, page title and surrounding paragraph.<br />
 <sub><code>TypeScript</code> · <code>Browser extension</code> · <a href="https://sanjays2402.github.io/context-clipboard/">Explore →</a></sub>
 </td>
 <td width="50%" valign="top">
-<a href="https://github.com/Sanjays2402/retrace"><img src="https://raw.githubusercontent.com/Sanjays2402/retrace/main/docs/assets/feature-recovered.png" alt="Retrace recovering a workflow" /></a>
-<b><a href="https://github.com/Sanjays2402/retrace">retrace</a></b>: crash-resumable Python workflows on SQLite checkpoints, with durable retries and an inspector. Zero dependencies.<br />
+<a href="https://github.com/Sanjays2402/retrace"><img src="profile/shots/retrace.jpg" alt="Retrace recovering a workflow" /></a>
+<b><a href="https://github.com/Sanjays2402/retrace">retrace</a></b>: crash-resumable Python workflows. Durable SQLite checkpoints, retries and a live inspector.<br />
 <sub><code>Python</code> · <code>asyncio</code> · <a href="https://sanjays2402.github.io/retrace/">Playground →</a></sub>
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 <a href="https://github.com/Sanjays2402/optune"><picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Sanjays2402/optune/main/docs/screenshots/hero-dark.png" />
-  <img src="https://raw.githubusercontent.com/Sanjays2402/optune/main/docs/screenshots/hero-light.png" alt="Optune on macOS" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Sanjays2402/Sanjays2402/main/profile/shots/optune-dark.jpg" />
+  <img src="https://raw.githubusercontent.com/Sanjays2402/Sanjays2402/main/profile/shots/optune-light.jpg" alt="Optune on macOS" />
 </picture></a>
-<b><a href="https://github.com/Sanjays2402/optune">Optune</a></b>: native controls for Logitech MX mice and keyboards on macOS. Battery, DPI, button remapping and per-app profiles, without Options+.<br />
+<b><a href="https://github.com/Sanjays2402/optune">Optune</a></b>: native macOS controls for Logitech MX devices. Battery, DPI, button remapping and per-app profiles.<br />
 <sub><code>Swift 6</code> · <code>SwiftUI</code> · <code>HID++</code> · <a href="https://github.com/Sanjays2402/homebrew-optune">Homebrew tap →</a></sub>
 </td>
 <td width="50%" valign="top">
-<a href="https://github.com/Sanjays2402/city-friction-map"><img src="https://raw.githubusercontent.com/Sanjays2402/city-friction-map/main/docs/screenshots/desktop.png" alt="city-friction-map" /></a>
-<b><a href="https://github.com/Sanjays2402/city-friction-map">city-friction-map</a></b>: a community map of everyday city obstacles. Report, verify and share local heads-ups, with CSV and GeoJSON export.<br />
+<a href="https://github.com/Sanjays2402/city-friction-map"><img src="profile/shots/city-friction-map.jpg" alt="city-friction-map" /></a>
+<b><a href="https://github.com/Sanjays2402/city-friction-map">city-friction-map</a></b>: a community map of everyday city obstacles. Report, verify and share heads-ups, with GeoJSON export.<br />
 <sub><code>JavaScript</code> · <code>Express</code> · <code>SQLite</code> · <code>Leaflet</code></sub>
 </td>
 </tr>
