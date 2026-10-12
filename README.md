@@ -129,9 +129,9 @@ The full list, the counting method and maintainer acknowledgments for incorporat
 
 - [Slab's PDF tools](https://sanjays2402.github.io/slab/): see what the desktop app does before downloading it
 - [Retrace recovery playground](https://sanjays2402.github.io/retrace/): kill a workflow mid-run and watch it resume
-- [Flight Simulator](https://sanjays2402.github.io/flight-sim/): a procedural world in a single HTML file
-- [AI Particle Simulator](https://sanjays2402.github.io/ai-particle-simulator/): 3D particle presets with GIF and video export
-- [Memory Matrix](https://sanjays2402.github.io/memory-matrix/): pair matching with streaks and a daily challenge
+- [System Design Academy](https://sanjays2402.github.io/system-design-academy/): 60 production architecture deep dives, each defended through the follow-up questions
+- [Flight Tracker](https://sanjays2402.github.io/flight-tracker/): live aircraft positions from the OpenSky Network on a world map
+- [Data Forge](https://sanjays2402.github.io/data-forge/): drop in a CSV, TSV or JSON file to filter, chart and export it, all client-side
 
 <div align="center">
 
