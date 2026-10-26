@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="60" viewBox="0 0 900 60" role="img" aria-label="Building backend systems, native apps and dev tools. 419+ PRs merged into 284 open-source repos. Shipping Slab: an offline PDF studio in Rust.">
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="60" viewBox="0 0 900 60" role="img" aria-label="Building backend systems, native apps and dev tools. 422+ PRs merged into 287 open-source repos. Shipping Slab: an offline PDF studio in Rust.">
   <style>
     @keyframes t0{0%,0.00%{width:0}13.33%,28.33%{width:740px}33.33%,100%{width:0}}
     #c0{animation:t0 12.0s steps(1,end) infinite;animation-timing-function:steps(55)}
@@ -21,7 +21,7 @@
   </g></g>
   <clipPath id="k1"><rect id="c1" x="146" y="10" height="40" width="0"/></clipPath>
   <g id="g1" opacity="0"><g clip-path="url(#k1)">
-    <text x="146" y="38" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="22" fill="#e6edf3"><tspan fill="#f0b429">$ </tspan>419+ PRs merged into 284 open-source repos.<tspan fill="#f0b429">▍</tspan></text>
+    <text x="146" y="38" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="22" fill="#e6edf3"><tspan fill="#f0b429">$ </tspan>422+ PRs merged into 287 open-source repos.<tspan fill="#f0b429">▍</tspan></text>
   </g></g>
   <clipPath id="k2"><rect id="c2" x="133" y="10" height="40" width="0"/></clipPath>
   <g id="g2" opacity="0"><g clip-path="url(#k2)">
